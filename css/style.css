@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+:root {
+  --pink: #ff046f;
+  --violet: #c63bfa;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  background-color: #fff;
+  color: black;
+  font-size: 2rem;
+  padding: 8px 18px;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.button-2 {
+  border: none;
+  background-color: red;
+  color: #fff;
+  font-size: 2rem;
+  padding: 8px 18px;
+  transition: 0.5s;
+}
+
+.button-2:hover {
+  background-color: rgb(74, 66, 66);
+  color: #fff;
+}
+
+/* *::selection {
+    background: var(--pink);
+    color: #fff;
+} */
+
+/* a {
+    color: #ffffff;
+    text-decoration: underline;
+} */
+/* nav{
+    background-color: red;
+} */
+.test {
+  /* padding: 10px 200px; */
+  margin-left: 20px;
+  font-family: 'Lato', Sans-serif;
+  /* font-size: 18px; */
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.68em;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.active,
+.test:hover {
+  background-color: black;
+  color: white;
+  /* padding-left: 20px; */
+}
+
+.commitment.row {
+  display: flex;
+  /* align-items: center;
+    justify-content: space-between; */
+}
+
+.content h1 {
+  font-weight: 900;
+}
+
+.commitment .row .content {
+  background-color: red;
+  padding: 40px 100px 40px 150px;
+  flex-basis: 60%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  color: #fff;
+}
+
+.commitment .row .content h3 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+/* .row .content p {
+    font-size:18px;
+    color: #ffffff;
+    padding: 1rem 0;
+} */
+
+/* .row .content button {
+    border: none;
+    background-color: #fff;
+    color: black;
+    font-size: 2rem;
+    padding: 8px 18px;
+    transition: .5s;
+}
+.row .content button:hover{
+    background-color: black;
+    color: #fff;
+} */
+.commitment .row .image {
+  flex-basis: 40%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.commitment .row .image img {
+  width: 400px;
+}
+
+/* ----------------------------------keys---------------------------------------- */
+.keys .row {
+  display: flex;
+  /* align-items: center;
+    justify-content: space-between; */
+}
+
+.content h1 {
+  font-weight: 900;
+}
+
+.keys .row .content {
+  background-color: #242426;
+  padding: 40px 100px 40px 150px;
+  flex-basis: 50%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  color: #fff;
+}
+
+.keys .row .content button {
+  border: none;
+  background-color: red;
+  color: #fff;
+  font-size: 2rem;
+  padding: 8px 18px;
+  transition: 0.5s;
+}
+
+.keys .row .content button:hover {
+  background-color: rgb(74, 66, 66);
+  color: #fff;
+}
+
+.keys .row .comprehensive {
+  flex-basis: 50%;
+  background-color: #3a3a3c;
+  padding: 40px 100px 40px 100px;
+  color: #fff;
+}
+
+.keys .row .comprehensive>h1 {
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.keys .row .comprehensive ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.keys .row .comprehensive ul li {
+  list-style: none;
+  border-bottom: 1px solid #58585a;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 19px 22px 18px 22px;
+  transition: 0.5s;
+}
+
+.keys .row .comprehensive ul li:nth-child(5) {
+  border-bottom: none;
+  color: red;
+}
+
+.keys .row .comprehensive ul li:hover {
+  background-color: red;
+}
+
+/* .row .image img {
+  height: 500px;
+  width: 400px;
+} */
+
+/* -------------------------- */
+.transportation {
+  background-image: url('https://ld-wp73.template-help.com/wordpress/prod_3709/v1/wp-content/uploads/2022/02/home-bkg-2-1.jpg');
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  background-attachment: fixed;
+}
+
+.transportation .trans-bank {
+  display: flex;
+}
+
+.trans-bank .blank_space {
+  flex-basis: 50%;
+}
+
+.trans-bank .making {
+  flex-basis: 50%;
+  padding: 40px 100px 40px 100px;
+}
+
+.transportation .making h1 {
+  font-weight: 900;
+  color: #fff;
+}
+
+.transportation .making p {
+  color: #ffffff;
+}
+
+/* -------------------------------------------------company info--------------------------------------- */
+company-info {
+  background-color: #ebebeb;
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin: 100px 200px;
+}
+
+.box-container h1 {
+  color: #242426;
+  font-family: 'Lato', Sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: 2px;
+}
+
+/* --------------------------track-shipping-------------------------------- */
+.track-shipping {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.track-content {
+  padding: 0px 50px 0px 50px;
+  background-color: #3a3a3c;
+  flex-basis: 50%;
+}
+
+.icon-track {
+  display: flex;
+}
+
+.track-shipping .icon-track {
+  margin: 50px 0px;
+}
+
+.track-shipping .icon-track i {
+  font-size: 50px;
+  color: white;
+  background-color: red;
+  padding: 20px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.track-shipping .icon-track h1 {
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.track-shipping .icon-track h1:hover {
+  color: red;
+}
+
+.track-img {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.track-img img {
+  height: 600px;
+  width: 600px;
+}
+
+
+
+
+
+
+/* ----------------------------------------TESTIMONIALS------------------------------------------ */
+
+
+.TESTIMONIALS {
+  background-image: url(https://ld-wp73.template-help.com/wordpress/prod_3709/v1/wp-content/uploads/2022/02/about-bkg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.testimonial-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.testimonial-content .card {
+  width: 400px;
+  padding: 2rem;
+  border: 1px solid rgb(231, 228, 228);
+  margin: 2rem;
+  background: #fff;
+  text-align: center;
+}
+
+
+
+/* ----------------------------------------LEADERSHIP------------------------------------- */
+
+.LEADERSHIP {
+  background-color: #ebebeb;
+}
+
+.LEADERSHIP .leadership-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 40px;
+  padding: 100px 100px;
+}
+
+.LEADERSHIP .leadership-container h1 {
+  color: #242426;
+  font-family: "Lato", Sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+
+.LEADERSHIP .leadership-container .leadership-container-colour {
+  color: #E21818;
+  font-family: "Lato", Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  letter-spacing: 0px;
+}
+
+.LEADERSHIP .leadership-container .leadership-container-info {
+  color: #3A3A3C;
+  font-family: "Lato", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.8em;
+  letter-spacing: 0px;
+}
+
+
+
+
+
+/* ----------------------------service------------------------------------- */
+
+.service {
+  background-image: url(https://ld-wp73.template-help.com/wordpress/prod_3709/v1/wp-content/uploads/2022/02/services-bkg.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service .center-service {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: -30px;
+  margin-bottom: 0px;
+  padding: 0px 400px;
+}
+
+.service .center-service h1 {
+  color: #FFFFFF;
+  font-family: "Lato", Sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: 0px;
+  /* background: red; */
+}
+
+
+
+footer {
+  height: 100px;
+  background-color: blueviolet;
+}
+
+@media (max-width: 1200px) {
+  .commitment .row .image img {
+    width: 300px;
+  }
+
+  .commitment .row .content {
+    padding: 40px 50px 40px 50px;
+  }
+
+  .keys .row .content {
+    padding: 40px 50px 40px 50px;
+  }
+
+  .keys .row .comprehensive {
+    padding: 40px 50px 40px 50px;
+  }
+
+  .track-content {
+    /* padding: 0px 50px 0px 50px;
+    background-color: #3a3a3c; */
+    flex-basis: 100%;
+  }
+
+  .track-img {
+    flex-basis: 100%;
+  }
+
+  .track-img img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+
+  /* -------------------------------------------------company info--------------------------------------- */
+  .box-container {
+    margin: 100px 150px;
+  }
+
+  .LEADERSHIP .leadership-container {
+    padding: 100px 150px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* ------------------------commitment---------------------- */
+  .commitment .row .image {
+    flex-basis: 100%;
+  }
+
+  .commitment .row .content {
+    flex-basis: 100%;
+    padding: 40px 50px 40px 50px;
+  }
+
+  /* .commitment .row {
+    flex-flow: column-reverse;
+  } */
+
+  .commitment .row .image img {
+    height: 60vh;
+    width: 90vh;
+  }
+
+  .keys .row .comprehensive {
+    flex-basis: 100%;
+    padding: 40px 50px 40px 50px;
+  }
+
+  .keys .row .content {
+    flex-basis: 100%;
+    padding: 40px 100px 40px 100px;
+  }
+
+  .trans-bank .blank_space {
+    flex-basis: 100%;
+  }
+
+  .trans-bank .making {
+    flex-basis: 100%;
+    padding: 40px 100px 40px 100px;
+    background-color: #c63bfa;
+  }
+
+  /* -------------------------------------------------company info--------------------------------------- */
+  .box-container {
+    margin: 50px 50px;
+  }
+
+  .LEADERSHIP .leadership-container {
+    padding: 50px 50px;
+  }
+
+
+
+
+
+  /* .service .center-service {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: -30px;
+    margin-bottom: 0px;
+    padding: 0px 200px;
+  } */
+
+
+}
