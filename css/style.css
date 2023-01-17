@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
 :root {
   --pink: #ff046f;
@@ -6,7 +6,7 @@
 }
 
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: capitalize;
   text-decoration: none;
   outline: none;
@@ -67,7 +67,7 @@ button:hover {
 .test {
   /* padding: 10px 200px; */
   margin-left: 20px;
-  font-family: "Lato", Sans-serif;
+  font-family: 'Lato', Sans-serif;
   /* font-size: 18px; */
   font-weight: 600;
   text-transform: uppercase;
@@ -217,7 +217,7 @@ button:hover {
 
 /* -------------------------- */
 .transportation {
-  background-image: url("https://ld-wp73.template-help.com/wordpress/prod_3709/v1/wp-content/uploads/2022/02/home-bkg-2-1.jpg");
+  background-image: url('https://ld-wp73.template-help.com/wordpress/prod_3709/v1/wp-content/uploads/2022/02/home-bkg-2-1.jpg');
   /* background-attachment: fixed; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -262,7 +262,7 @@ company-info {
 
 .box-container h1 {
   color: #242426;
-  font-family: "Lato", Sans-serif;
+  font-family: 'Lato', Sans-serif;
   font-size: 50px;
   font-weight: 900;
   text-transform: uppercase;
@@ -320,6 +320,95 @@ company-info {
   width: 600px;
 }
 
+/* --------------------------------------------------------------------------------------about --------------------------------------------------------------------------- */
+/* ----------------------------------------team---------------------------- */
+section {
+}
+.team {
+  background-color: #ebebeb;
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 40px; */
+}
+
+.meetOurTeam {
+  flex-basis: 50%;
+  padding: 40px 100px 40px 100px;
+}
+.meetOurTeam h1 {
+  font-size: 31px;
+  line-height: 31px;
+  margin-bottom: 20px;
+}
+
+.meetOurTeam .trucky {
+  color: red;
+  padding: 0px 0px 1px 0px;
+  font-size: 20px;
+}
+
+.meetOurTeamImage {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team .position {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.team .position ul {
+  padding: 0;
+}
+.team .position ul li {
+  list-style: none;
+  border-bottom: 1px solid #58585a;
+  padding: 10px 00px 10px 0px;
+  text-transform: uppercase;
+}
+
+/* ----------------------------------------------------------------values -------------------------------------------------------------- */
+.values {
+  display: flex;
+  flex-wrap: wrap;
+}
+.values-content {
+  padding: 40px 100px 40px 100px;
+  background-color: #242426;
+  flex-basis: 50%;
+}
+.icon-track {
+  display: flex;
+}
+.values .icon-track {
+  margin: 50px 0px;
+}
+.values .icon-track i {
+  font-size: 50px;
+  color: white;
+  background-color: red;
+  padding: 20px;
+  height: 100px;
+  margin-right: 20px;
+}
+.values .icon-track h1 {
+  color: #ffffff;
+  transition: 0.5s;
+}
+.values .icon-track p {
+  color: white;
+}
+.values .icon-track h1:hover {
+  color: red;
+}
+.prices {
+  flex-basis: 50%;
+  background-color: #3a3a3c;
+}
+
 /* ----------------------------------------TESTIMONIALS------------------------------------------ */
 
 .TESTIMONIALS {
@@ -361,7 +450,7 @@ company-info {
 
 .LEADERSHIP .leadership-container h1 {
   color: #242426;
-  font-family: "Lato", Sans-serif;
+  font-family: 'Lato', Sans-serif;
   font-size: 50px;
   font-weight: 900;
   text-transform: uppercase;
@@ -372,7 +461,7 @@ company-info {
 
 .LEADERSHIP .leadership-container .leadership-container-colour {
   color: #e21818;
-  font-family: "Lato", Sans-serif;
+  font-family: 'Lato', Sans-serif;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
@@ -382,7 +471,7 @@ company-info {
 
 .LEADERSHIP .leadership-container .leadership-container-info {
   color: #3a3a3c;
-  font-family: "Lato", Sans-serif;
+  font-family: 'Lato', Sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.8em;
@@ -411,13 +500,187 @@ company-info {
 
 .service .center-service h1 {
   color: #ffffff;
-  font-family: "Lato", Sans-serif;
+  font-family: 'Lato', Sans-serif;
   font-size: 80px;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1em;
   letter-spacing: 0px;
   /* background: red; */
+}
+
+/* -----------------------------------service-blog------------------------------------------------- */
+
+.service-blog-content {
+  background-color: #ebebeb;
+}
+.service-blog {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-gap: 100px;
+  padding: 100px 100px;
+}
+
+.service-blog h5 {
+  color: #e21818;
+  font-family: 'Lato', Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  letter-spacing: 0px;
+  margin-top: 10px;
+}
+.service-blog p {
+  color: #3a3a3c;
+  font-family: 'Lato', Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.68em;
+  letter-spacing: 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 15px 0px 55px 0px;
+  align-self: flex-start;
+  text-align: left;
+}
+.service-blog img {
+  height: 350px;
+  width: 450px;
+}
+
+/* ------------------------------------------blog-------------------------------------- */
+.blog-content .blog {
+  padding: 100px 0px;
+  margin: auto;
+  width: 60%;
+}
+.blog-content {
+  background: #ebebeb;
+  /* padding: 10px; */
+}
+
+.blog-content .blog div img {
+  width: 100%;
+}
+
+.blog-content .blog div h5 {
+  font-family: 'Lato', Sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.4em;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  transition: 0.5s;
+}
+.blog-content .blog div h5:hover {
+  color: red;
+}
+
+.blog-content .blog div p {
+  font-family: 'Lato', Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.8em;
+  letter-spacing: 0px;
+}
+.blog-content .blog div a {
+  float: right;
+  margin-bottom: 100px;
+}
+
+/* -------------------------------------------contact page --------------------------------------- */
+.contact-page-content {
+  background-color: #ebebeb;
+}
+.contact-maping {
+  height: 650px;
+  margin: auto;
+  width: 70%;
+  padding: 100px 0px;
+}
+
+.contact-maping .google-map {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+  transition: all 0.25s ease-in-out;
+}
+.contact-maping .google-map:hover {
+  filter: none;
+}
+
+.contact-us {
+  width: 70%;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 0px;
+}
+
+.contact-us .contact-details {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-us .contact-details div .con {
+  color: #242426;
+  font-family: 'Lato', Sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1em;
+  letter-spacing: 0px;
+}
+
+.contact-us .contact-details div h4 {
+  padding: 0px 0px 12px 0px;
+}
+
+.contact-us .contact-details div p {
+  padding: 0px 0px 10px 0px;
+}
+.contact-us .contact-details div p span {
+  color: #ff6600;
+}
+
+.contact-us .contact-input-field {
+  flex-basis: 50%;
+  background-color: #d2d2d2;
+  padding: 25px;
+}
+.contact-us .contact-input-field input {
+  display: block;
+  margin: auto;
+  width: 90%;
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+}
+.contact-us .contact-input-field textarea {
+  display: block;
+  margin: auto;
+  width: 90%;
+  outline: none;
+  border: none;
+  padding: 15px 20px;
+}
+
+.contact-us .contact-input-field .send-btn {
+  text-align: center;
+  border: 1px solid rgb(232, 225, 225);
+  background-color: #ffffff;
+  margin: 30px auto;
+  width: 90%;
+  padding: 7px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.contact-us .contact-input-field .send-btn:hover {
+  background-color: black;
+  color: #fff;
 }
 
 footer {
@@ -456,6 +719,22 @@ footer {
     height: 100%;
     width: 100%;
   }
+
+  /* -----------------------------------service-blog------------------------------------------------- */
+
+  .service-blog-content {
+    background-color: #ebebeb;
+  }
+  .service-blog {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 100px;
+    padding: 100px 100px;
+  }
+  .service-blog img {
+    height: 350px;
+    width: 450px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -466,6 +745,45 @@ footer {
 
   .LEADERSHIP .leadership-container {
     padding: 100px 150px;
+  }
+
+  /* ----------------------------------------team---------------------------- */
+  .meetOurTeam {
+    flex-basis: 100%;
+  }
+  .meetOurTeamImage {
+    flex-basis: 100%;
+    padding: 10px;
+  }
+
+  /* -----------------------------------service-blog------------------------------------------------- */
+
+  .service-blog {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 100px;
+    padding: 100px 70px;
+  }
+  .service-blog img {
+    height: 350px;
+    width: 350px;
+  }
+
+  /* ------------------------------------------blog-------------------------------------- */
+  .blog-content .blog {
+    padding: 100px 100px;
+    margin: 0;
+    width: 100%;
+  }
+
+  /* -------------------------------contact page------------------------------ */
+  .contact-us .contact-details {
+    flex-basis: 100%;
+  }
+
+  .contact-us .contact-input-field {
+    flex-basis: 100%;
+    margin-top: 100px;
   }
 }
 
@@ -524,6 +842,42 @@ footer {
     margin-bottom: 0px;
     padding: 0px 200px;
   } */
+
+  /* -----------------------------------service-blog------------------------------------------------- */
+
+  .service-blog {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 100px;
+    padding: 100px 70px;
+  }
+  .service-blog img {
+    /* height: ; */
+    width: 100%;
+  }
+
+  /* ------------------------------------------blog-------------------------------------- */
+  .blog-content .blog {
+    padding: 100px 50px;
+    margin: 0;
+    width: 100%;
+  }
+
+  /* ------------------------------------contact page --------------------- */
+  .contact-maping {
+    height: 450px;
+    padding: 100px 50px;
+    width: 100%;
+  }
+}
+
+/* --------------------------------------team------------------------- */
+.meetOurTeam {
+  padding: 40px 30px 40px 30px;
+}
+
+.meetOurTeamImage {
+  display: block;
 }
 
 /* contact */
@@ -559,7 +913,7 @@ footer {
 
 .contact-header {
   color: #ffffff;
-  font-family: "Lato", Sans-serif;
+  font-family: 'Lato', Sans-serif;
   font-size: 50px;
   font-weight: 900;
   text-transform: uppercase;
@@ -569,7 +923,7 @@ footer {
 
 .contact-address {
   color: #ffffff;
-  font-family: "Lato", Sans-serif;
+  font-family: 'Lato', Sans-serif;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
@@ -579,7 +933,7 @@ footer {
 
 .contact-text {
   color: #ffffff;
-  font-family: "Lato", Sans-serif;
+  font-family: 'Lato', Sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.8em;
