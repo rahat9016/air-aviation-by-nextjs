@@ -22,10 +22,90 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>airline</title>
+    <title>contact</title>
   </head>
   <body>
+    <!-- -----------------------------------------------navbar---------------------------------- -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-0">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="myDIV">
+            <li class="nav-item">
+              <a class="nav-link test" aria-current="page" href="./home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link test" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link test" href="#">services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link test" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active test" href="#">Contacts</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    test
+                  >
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li> -->
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
     <section class="contact-page-content">
       <div class="contact-maping">
         <iframe
@@ -74,6 +154,53 @@
         </div>
       </div>
     </section>
-    <footer></footer>
+    <footer>
+      <p>Zemez ©. All rights reserved. | Privacy Policy</p>
+    </footer>
+
+    <script>
+      // Add active class to the current button (highlight it)
+      var header = document.getElementById('myDIV');
+      var btns = header.getElementsByClassName('test');
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener('click', function () {
+          var current = document.getElementsByClassName('active');
+          current[0].className = current[0].className.replace(' active', '');
+          this.className += ' active';
+        });
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js"
+    ></script>
+    <script>
+      var options = {
+        accessibility: true,
+        prevNextButtons: true,
+        pageDots: true,
+        setGallerySize: false,
+        arrowShape: {
+          x0: 10,
+          x1: 60,
+          y1: 50,
+          x2: 60,
+          y2: 45,
+          x3: 15,
+        },
+      };
+
+      var carousel = document.querySelector('[data-carousel]');
+      var slides = document.getElementsByClassName('carousel-cell');
+      var flkty = new Flickity(carousel, options);
+
+      flkty.on('scroll', function () {
+        flkty.slides.forEach(function (slide, i) {
+          var image = slides[i];
+          var x = ((slide.target + flkty.x) * -1) / 3;
+          image.style.backgroundPosition = x + 'px';
+        });
+      });
+    </script>
   </body>
 </html>

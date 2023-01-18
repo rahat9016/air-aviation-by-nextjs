@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>airline</title>
+  </head>
+
+  <body>
+    <!-- -----------------------------------------------navbar---------------------------------- -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-0">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="myDIV">
+            <li class="nav-item">
+              <a class="nav-link active test" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link test" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link test" href="#">services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link test" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link test" href="./contact.html">Contacts</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  test
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li> -->
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- /* ------------------------------------------home-----------slider---------------- */ -->
+
+    <div class="hero-slider" data-carousel>
+      <div
+        class="carousel-cell"
+        style="background-image: url(./images/img-1.jpg)"
+      >
+        <div class="overlay"></div>
+        <div class="inner">
+          <h2 class="title">
+            RELIABLE <br />
+            TRANSPORTATION
+          </h2>
+          <p class="subtitle">
+            At Trucky our mission is to attract and retain customers
+          </p>
+          <!-- <a href="#" class="btn">Tell me more</a> -->
+        </div>
+      </div>
+
+      <div
+        class="carousel-cell"
+        style="background-image: url(./images/img-2.jpg)"
+      >
+        <div class="overlay"></div>
+        <div class="inner">
+          <h2 class="title">
+            RELIABLE <br />
+            TRANSPORTATION
+          </h2>
+          <p class="subtitle">
+            At Trucky our mission is to attract and retain customers
+          </p>
+          <!-- <a href="#" class="btn">Tell me more</a> -->
+        </div>
+      </div>
+
+      <div
+        class="carousel-cell"
+        style="background-image: url(./images/img-3.jpg)"
+      >
+        <div class="overlay"></div>
+        <div class="inner">
+          <h2 class="title">
+            RELIABLE <br />
+            TRANSPORTATION
+          </h2>
+          <p class="subtitle">
+            At Trucky our mission is to attract and retain customers
+          </p>
+          <!-- <a href="#" class="btn">Tell me more</a> -->
+        </div>
+      </div>
+    </div>
+
+    <!------------------------------- commitment-------------------------- -->
+    <section class="commitment">
+      <div class="row">
+        <div class="content">
+          <div>
+            <h1>OUR COMMITMENT</h1>
+            <br />
+            <h5>
+              SAFETY IS THE DRIVING FORCE BEHIND EVERYTHING WE DO AT TRUCKY
+              TRANSPORTATION COMPANY. OUR CORE SAFETY VALUE OF “SAFETY IS
+              EVERYONE’S JOB – ALL THE TIME” IS A COMMITMENT THAT STARTS AT THE
+              TOP OF OUR EXECUTIVE MANAGEMENT TEAM WITH OUR FOUNDERS.
+            </h5>
+            <br />
+            <p>
+              Trucky Transportation Company is committed to being a responsible
+              community partner and sharing the road with the motoring public in
+              a safe and courteous manner. Because of this commitment, Trucky
+              Transportation Company continues to be one of the safest and most
+              profitable flatbed carriers in the industry. If you have any
+              questions, please contact our Safety Department @ 1-800-895-8456
+            </p>
+            <br />
+            <a href=""> <button>READ MORE</button></a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./images/Learning languages-cuate.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------------------------------------------------keys ----------------------------------------------------->
+    <section class="keys">
+      <div class="row">
+        <div class="content">
+          <div>
+            <h1>KEYS TO SUCCESS</h1>
+            <br />
+            <h5>
+              SAFETY IS THE DRIVING FORCE BEHIND EVERYTHING WE DO AT TRUCKY
+              TRANSPORTATION COMPANY. OUR CORE SAFETY VALUE OF “SAFETY IS
+              EVERYONE’S JOB – ALL THE TIME” IS A COMMITMENT THAT STARTS AT THE
+              TOP OF OUR EXECUTIVE MANAGEMENT TEAM WITH OUR FOUNDERS.
+            </h5>
+            <br />
+            <p>
+              Trucky Transportation Company Is Committed To Being A Responsible
+              Community Partner And Sharing The Road With The Motoring Public In
+              A Safe And Courteous Manner. Because Of This Commitment, Trucky
+              Transportation Company Continues To Be One Of The Safest And Most
+              Profitable Flatbed Carriers In The Industry. If You Have Any
+              Questions, Please Contact Our Safety Department @ 1-800-895-8456
+            </p>
+            <br />
+            <a href=""> <button class="button-2">READ MORE</button></a>
+          </div>
+        </div>
+        <div class="comprehensive">
+          <h1>COMPREHENSIVE SERVICES</h1>
+          <ul>
+            <li><a href="">Worldwide Transport</a></li>
+            <li><a href="">Warehousing</a></li>
+            <li><a href="">Ground Transport</a></li>
+            <li><a href="">Door To Door Delivery</a></li>
+            <li><a href="">Packaging & Storage</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------------- transportation---------------------------------->
+    <section class="transportation">
+      <div class="trans-bank">
+        <div class="blank_space"></div>
+        <div class="making">
+          <h1>MAKING</h1>
+          <h1>TRANSPORTATION</h1>
+          <h1>FAST AND SAFE</h1>
+          <br />
+          <p>
+            Since the day 1 of our founding (which happened back in 1977), we’ve
+            always had the same set of principles that we’ve cherished
+            throughout all of our logistics & transportation operations. That
+            includes both our determination of being able to serve all clients
+            across the globe, regardless of the location, just as well as our
+            commitment to being able to offer all types of cargo shipment – from
+            air & railway all the way to trucking & ocean freight.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------------company info------------------------- -->
+    <section class="company-info">
+      <div class="box-container">
+        <div class="box">
+          <h1>WHO WE ARE</h1>
+          <p>
+            WITH OUR TRUCKS RANGING FROM REGULAR HEAVY-DUTY ONES TO SPECIALIZED,
+            WITH SPECIAL CONDITIONS FOR SPECIAL FREIGHT, WE CAN DELIVER IT ALL!
+          </p>
+          <p>
+            When we’re taking a new transportation order, we always make sure to
+            provide both first-class servicing, clean equipment, professional
+            lorry drivers and a professional back-office and sales personnel!
+          </p>
+          <a href=""> <button class="button-2">READ MORE</button></a>
+        </div>
+
+        <div class="box">
+          <h1>WHY US?</h1>
+          <p>
+            EACH SINGLE MEMBER OF OUR TRUCKING COMPANY’S TEAM IS A SEASONED
+            TRUCKIE, WITH TENS OF THOUSANDS OF MILES TRAVELED WHILE DELIVERING
+            YOUR GOODS.
+          </p>
+          <p>
+            With our trucks fleet consisting of a few dozens of regular trucks,
+            heavy duty trucks, controlled-temperature and refrigerator-equipped
+            trucks, we’re the ultimate trucking transportation provider .
+          </p>
+          <a href=""> <button class="button-2">READ MORE</button></a>
+        </div>
+
+        <div class="box">
+          <h1>WHAT WE DO</h1>
+          <p>
+            WE DO RECOGNIZE HOW IMPORTANT THE DELIVERY SCHEDULE IS, SO WE NEVER
+            LOSE TIME IDLY AND 99% OF THE TIME WE ARRIVE AHEAD OF THE SCHEDULE.
+          </p>
+          <p>
+            With all of trucks enhanced by a state-of-the-art equipment and
+            industry-leading technology from OrbComm©, we are able to track,
+            monitor and control all electronic components of a refrigerated
+            trailer in real-time.
+          </p>
+          <a href=""> <button class="button-2">READ MORE</button></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------------track------------------------------------------------------ -->
+    <section class="track">
+      <div class="track-shipping">
+        <div class="track-content">
+          <div class="icon-track">
+            <i class="fa-solid fa-code"></i>
+            <h1>TRUCKING SHIPPING SERVICES lorem10</h1>
+          </div>
+          <div class="icon-track">
+            <i class="fa-solid fa-code"></i>
+            <h1>TRUCKING SHIPPING SERVICES lorem10</h1>
+          </div>
+          <div class="icon-track">
+            <i class="fa-solid fa-code"></i>
+            <h1>TRUCKING SHIPPING SERVICES lorem10</h1>
+          </div>
+        </div>
+        <div class="track-img">
+          <img
+            src="https://ld-wp73.template-help.com/wordpress/prod_3709/v1/wp-content/uploads/2022/02/home-bkg-3-1.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------contact ---------------------------------------->
+
+    <section class="contact">
+      <div class="contact-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.78670165451!2d90.39701743730872!3d23.861706797587946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c5a230ffb24f%3A0xf03701ae20274fae!2sKM%20Express%20%26%20Logistics%20Ltd.(Office)!5e0!3m2!1sen!2sbd!4v1673153700447!5m2!1sen!2sbd"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          class="google-map"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="contact-content">
+        <h4 class="contact-header">CONTACTS</h4>
+        <p class="contact-address">
+          4578 MARMORA ROAD,<br />
+          GLASGOW D04 89GR
+        </p>
+        <p class="contact-text">
+          We aim to make our service as reasonably priced, as possible, allowing
+          multiple SMBs to use our trucking for good!
+        </p>
+        <div class="group-icon">
+          <a href="#" class="social-icon">
+            <i class="fa-brands fa-facebook-f fa-2xl"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fa-brands fa-twitter fa-2xl"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fa-brands fa-instagram fa-2xl"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Zemez ©. All rights reserved. | Privacy Policy</p>
+    </footer>
+
+    <script>
+      // Add active class to the current button (highlight it)
+      var header = document.getElementById('myDIV');
+      var btns = header.getElementsByClassName('test');
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener('click', function () {
+          var current = document.getElementsByClassName('active');
+          current[0].className = current[0].className.replace(' active', '');
+          this.className += ' active';
+        });
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js"
+    ></script>
+    <script>
+      var options = {
+        accessibility: true,
+        prevNextButtons: true,
+        pageDots: true,
+        setGallerySize: false,
+        arrowShape: {
+          x0: 10,
+          x1: 60,
+          y1: 50,
+          x2: 60,
+          y2: 45,
+          x3: 15,
+        },
+      };
+
+      var carousel = document.querySelector('[data-carousel]');
+      var slides = document.getElementsByClassName('carousel-cell');
+      var flkty = new Flickity(carousel, options);
+
+      flkty.on('scroll', function () {
+        flkty.slides.forEach(function (slide, i) {
+          var image = slides[i];
+          var x = ((slide.target + flkty.x) * -1) / 3;
+          image.style.backgroundPosition = x + 'px';
+        });
+      });
+    </script>
+  </body>
+</html>
