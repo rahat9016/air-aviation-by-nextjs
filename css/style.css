@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
 
 :root {
   --pink: #ff046f;
@@ -6,7 +6,7 @@
 }
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: capitalize;
   text-decoration: none;
   outline: none;
@@ -17,10 +17,88 @@
 
 /* nav */
 
+.top-bar {
+  display: none;
+}
+
+.nav-container-padding {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.top-bar-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.image-wrapper {
+  width: 150px;
+}
+
+.image-wrapper > img {
+  width: 100%;
+}
+
+.top-bar-nav-item {
+  display: block;
+  padding: 12px 19px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  /* background-color: #e11313; */
+  font-size: 14px;
+}
+
+.top-bar-nav-item:hover {
+  background-color: #e11313;
+}
+
+.navbar {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.navbar-nav {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.logo-wrapper {
+  width: 100px;
+}
+
+.nav-logo > img {
+  width: 100%;
+}
+
 @media (min-width: 992px) {
+  .top-bar {
+    display: block;
+  }
+
   .navbar-expand-lg .navbar-nav .nav-link {
     padding: 20px 20px 20px 20px;
     margin: 0;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar-nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .navbar-brand {
+    display: none;
+  }
+
+  .login-btn {
+    display: none;
+  }
+  .logo-wrapper {
+    display: none;
   }
 }
 
@@ -67,7 +145,7 @@ button:hover {
 .test {
   /* padding: 10px 200px; */
   margin-left: 20px;
-  font-family: 'Lato', Sans-serif;
+  font-family: "Lato", Sans-serif;
   /* font-size: 18px; */
   font-weight: 600;
   text-transform: uppercase;
@@ -217,7 +295,7 @@ button:hover {
 
 /* -------------------------- */
 .transportation {
-  background-image: url('https://ld-wp73.template-help.com/wordpress/prod_3709/v1/wp-content/uploads/2022/02/home-bkg-2-1.jpg');
+  background-image: url("https://ld-wp73.template-help.com/wordpress/prod_3709/v1/wp-content/uploads/2022/02/home-bkg-2-1.jpg");
   /* background-attachment: fixed; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -262,7 +340,7 @@ company-info {
 
 .box-container h1 {
   color: #242426;
-  font-family: 'Lato', Sans-serif;
+  font-family: "Lato", Sans-serif;
   font-size: 50px;
   font-weight: 900;
   text-transform: uppercase;
@@ -450,7 +528,7 @@ section {
 
 .LEADERSHIP .leadership-container h1 {
   color: #242426;
-  font-family: 'Lato', Sans-serif;
+  font-family: "Lato", Sans-serif;
   font-size: 50px;
   font-weight: 900;
   text-transform: uppercase;
@@ -461,7 +539,7 @@ section {
 
 .LEADERSHIP .leadership-container .leadership-container-colour {
   color: #e21818;
-  font-family: 'Lato', Sans-serif;
+  font-family: "Lato", Sans-serif;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
@@ -471,7 +549,7 @@ section {
 
 .LEADERSHIP .leadership-container .leadership-container-info {
   color: #3a3a3c;
-  font-family: 'Lato', Sans-serif;
+  font-family: "Lato", Sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.8em;
@@ -500,7 +578,7 @@ section {
 
 .service .center-service h1 {
   color: #ffffff;
-  font-family: 'Lato', Sans-serif;
+  font-family: "Lato", Sans-serif;
   font-size: 80px;
   font-weight: 700;
   text-transform: uppercase;
@@ -523,7 +601,7 @@ section {
 
 .service-blog h5 {
   color: #e21818;
-  font-family: 'Lato', Sans-serif;
+  font-family: "Lato", Sans-serif;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
@@ -533,7 +611,7 @@ section {
 }
 .service-blog p {
   color: #3a3a3c;
-  font-family: 'Lato', Sans-serif;
+  font-family: "Lato", Sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.68em;
@@ -564,7 +642,7 @@ section {
 }
 
 .blog-content .blog div h5 {
-  font-family: 'Lato', Sans-serif;
+  font-family: "Lato", Sans-serif;
   font-size: 22px;
   font-weight: 400;
   font-style: italic;
@@ -578,7 +656,7 @@ section {
 }
 
 .blog-content .blog div p {
-  font-family: 'Lato', Sans-serif;
+  font-family: "Lato", Sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.8em;
@@ -626,7 +704,7 @@ section {
 }
 .contact-us .contact-details div .con {
   color: #242426;
-  font-family: 'Lato', Sans-serif;
+  font-family: "Lato", Sans-serif;
   font-size: 80px;
   font-weight: 700;
   line-height: 1em;
@@ -913,7 +991,7 @@ footer {
 
 .contact-header {
   color: #ffffff;
-  font-family: 'Lato', Sans-serif;
+  font-family: "Lato", Sans-serif;
   font-size: 50px;
   font-weight: 900;
   text-transform: uppercase;
@@ -923,7 +1001,7 @@ footer {
 
 .contact-address {
   color: #ffffff;
-  font-family: 'Lato', Sans-serif;
+  font-family: "Lato", Sans-serif;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
@@ -933,7 +1011,7 @@ footer {
 
 .contact-text {
   color: #ffffff;
-  font-family: 'Lato', Sans-serif;
+  font-family: "Lato", Sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.8em;
