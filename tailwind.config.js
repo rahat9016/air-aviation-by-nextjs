@@ -9,6 +9,7 @@ export default {
       colors: {
         primary: '#3B5C77',
         secondary: '#EA244E',
+        gray: "#BBBBBB"
       },
       container: {
         center: true,
