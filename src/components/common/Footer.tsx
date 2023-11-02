@@ -1,7 +1,7 @@
 import { HiArrowRight } from 'react-icons/hi'
-import { FaLinkedinIn, FaWhatsapp } from 'react-icons/fa'
-import { BiLogoFacebook, BiLogoInstagram } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
+import { socialLink } from '../../data/data'
+import HelpCenter from './HelpCenter'
 export function Footer () {
   return (
     <div>
@@ -18,17 +18,18 @@ export function Footer () {
               <button className='w-[61px] h-[31px] p-2 bg-secondary text-white rounded-md flex items-center justify-center'><HiArrowRight /></button>
             </div>
             <div className='flex flex-col lg:flex-row gap-2 lg:gap-8 items-center text-white'>
-              <h2 className='text-sm lg:text-base'>Help Center</h2>
-              <ul className='flex gap-4 text-lg mt-4 lg:mt-0'>
-                
-                <li><Link to={'#'}><BiLogoInstagram /></Link></li>
-                <li><Link to={'https://www.facebook.com/KMCargomy/'} target='_blank'><BiLogoFacebook /></Link></li>
-                <li><Link to={'https://www.linkedin.com/company/kmcargo/?trk=public_profile_experience-item_profile-section-card_image-click&originalSubdomain=bd'} target='_blank'><FaLinkedinIn /></Link></li>
-                <li><Link to={'#'}><FaWhatsapp /></Link></li>
-              </ul>
+              <HelpCenter className='text-white' />
+              <ul className='flex gap-[10px] text-white text-xl'>
+                  {
+                    socialLink?.map((social, index) => {
+                      return (social.href != "" && <li key={index}> <Link target='_blank' to={social?.href}>{<social.icon/>}</Link> </li>)})
+                  }
+                </ul>
             </div>
           </div>
-          <div><p className='text-center lg:text-left text-xs lg:text-sm text-white mt-8 py-2'>Copyrights@2023 by KM Group. All Rights Reserved </p></div>
+          <div ><p className='text-center lg:text-left text-xs lg:text-sm text-white mt-8'>Copyrights@2023 by KM Air AVIATION. All Rights Reserved </p>
+          <Link to={"https://tecnobz.com/"} target='_blank' className='block text-center lg:text-left text-xs lg:text-sm text-white'> Developed by <span className='underline'>TECNO BZ</span> </Link>
+          </div>
         </div>
       </div>
     </div>

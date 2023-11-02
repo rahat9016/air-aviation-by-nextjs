@@ -1,9 +1,9 @@
-import { BiLogoFacebook, BiLogoWhatsapp } from "react-icons/bi";
-import { BsFillTelephoneFill, BsInstagram } from "react-icons/bs";
-import { FaLinkedinIn } from "react-icons/fa";
+
+import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail, MdLocationOn } from "react-icons/md";
 import { Link } from "react-router-dom";
 import waterLogo from "../../assets/water_KM.png"
+import { socialLink } from "../../data/data";
 const Contact_ = () => {
     return (
         <div>
@@ -47,35 +47,18 @@ const Contact_ = () => {
                                 </li>
                             </ul>
                             <div className="flex items-center justify-center gap-3 z-40">
-                                <BsInstagram className=" text-base lg:text-xl" />
-                                <Link
-                                    target="_blank"
-                                    to="https://www.facebook.com/KMCargomy/"
-                                >
-                                    <BiLogoFacebook className=" text-base lg:text-xl" />
-                                </Link>
-                                <Link
-                                    target="_blank"
-                                    to="https://www.linkedin.com/company/kmcargo/?trk=public_profile_experience-item_profile-section-card_image-click&originalSubdomain=bd"
-                                >
-                                    <FaLinkedinIn className=" text-base lg:text-xl" />
-                                </Link>
-                                <BiLogoWhatsapp className=" text-base lg:text-xl" />
+                            <ul className='flex gap-[10px] text-white text-xl'>
+                  {
+                    socialLink?.map((social, index) => {
+                      return (social.href != "" && <li key={index}> <Link target='_blank' to={social?.href}>{<social.icon/>}</Link> </li>)})
+                  }
+                </ul>
                             </div>
                             <img src={waterLogo} alt='' className='absolute bottom-3 lg:bottom-8  w-20 lg:w-32' />
                         </div>
                     </div>
                     <div className="w-full">
-                        <iframe
-                            title="KM Cargo & Logistics"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d995.9512200765178!2d101.69676166959131!3d3.1461333388855413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc491620b36279%3A0xe660cfdc178fa256!2sKM%20Cargo%20%26%20Logistics%20SDN.%20BHD.!5e0!3m2!1sen!2sus!4v1694245355280!5m2!1sen!2sus"
-                            width="100%"
-                            height="100%"
-                            style={{ border: "0" }}
-                            allowFullScreen
-                            loading="lazy"
-                            referrerPolicy="no-referrer-when-downgrade"
-                        />
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1824.393622020132!2d90.39758488715296!3d23.861687543332867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c59f5999a26d%3A0x6f32756b999a2c2a!2sKM%20Group%20BD!5e0!3m2!1sen!2sbd!4v1695803803001!5m2!1sen!2sbd" width="100%" height="100%" style={{ border: 0 }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <div />
                 </div>

@@ -7,7 +7,16 @@ const Success = () => {
             <div className="container px-mobileContainer xl:px-0">
             <CommentBox
                     title="KEYS TO SUCCESS"
-                    desc="SAFETY IS THE DRIVING FORCE BEHIND EVERYTHING WE DO AT TRICKY TRANSPORTATION COMPANY. OUR CORE SAFETY VALUE OF “SAFETY IS EVERYONE’S JOB ALL THE TIME” IS A COMMITMENT THAT STARTS AT THE TOP OF OUR EXECUTIVE MANAGEMENT TEAM WITH OUR FOUNDERS."
+                    desc="KM Air Aviation has proven to be a shining example of these principles,
+                    consistently rising above the industry's challenges. The foremost key to success
+                    for KM Air Aviation is its unyielding commitment to the safety and security of the
+                    passengers and cargo. KM Air Aviation boasts a team of highly skilled and
+                    experienced professionals, from management to dedicated ground crews. In
+                    today's world, environmental responsibility is a crucial component of success in
+                    the aviation industry. By creating jobs and supporting charitable initiatives, the
+                    company aims to be a responsible corporate citizen. These key principles are
+                    the foundation upon which KM Air Aviation has built its reputation as a leader
+                    in the aviation industry."
                     className="text-white"
                 />
             </div>

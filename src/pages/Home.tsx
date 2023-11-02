@@ -6,7 +6,7 @@ import Success from "../components/Home/Success"
 import Transportation from "../components/Home/Transportation"
 import Why from "../components/Home/Why"
 import { ReactHelmet } from "../components/common/Helmet"
-import { Hero } from "../components/common/Hero"
+import { Hero } from "../components/Home/Hero"
 import { Layout } from "../components/common/Layout"
 
 export function Home () {
