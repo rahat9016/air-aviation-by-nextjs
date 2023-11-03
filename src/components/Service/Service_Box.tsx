@@ -21,7 +21,7 @@ const Service_Box = () => {
                     return (
                         <div
                             key={index}
-                            className={`mb-10 xl:mb-20 flex ${
+                            className={`mb-8 xl:mb-8 flex ${
                                 index % 2 == 0 ? "justify-start" : "justify-end"
                             }`}
                         >

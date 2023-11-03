@@ -3,7 +3,7 @@ import CommentBox from "../common/CommentBox";
 
 const Commitment = () => {
     return (
-        <div style={{backgroundImage: `url(${commitment})`}} className="py-11 mt-10 xl:mt-28">
+        <div style={{backgroundImage: `url(${commitment})`}} className="py-11 mt-10 xl:mt-20">
             <div className="container px-mobileContainer xl:px-0">
             <CommentBox title="OUR COMMITMENT" desc="KM Air Aviation has established itself as a beacon of this commitment, providing
 unparalleled GSA services that go above and beyond the ordinary. This

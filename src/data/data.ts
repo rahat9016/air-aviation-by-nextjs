@@ -10,10 +10,36 @@ export const NavData = [
   {
     name: 'Services',
     location: '/services',
+    // children: [
+    //   {
+    //     name: 'Permit Services',
+    //     location: '/permit-services',
+    //   },
+    //   {
+    //     name: 'Ground Support',
+    //     location: '/ground-support',
+    //   },
+    //   {
+    //     name: 'Joint Charter Flight',
+    //     location: '/joint-charter-flight',
+    //   },
+    //   {
+    //     name: 'Aviation Fuel',
+    //     location: '/aviation-fuel',
+    //   },
+    //   {
+    //     name: 'Hotel Accommodation',
+    //     location: '/hotel-accommodation',
+    //   }
+    // ]
   },
   {
-    name: 'Team',
+    name: 'Our Team',
     location: '/team',
+  },
+  {
+    name: 'About Us',
+    location: '/about-us',
   },
   {
     name: 'Blog',
@@ -59,11 +85,11 @@ export const WhyData = [
 export const socialLink = [
   {
     icon: BiLogoFacebook ,
-    href: ""
+    href: "https://www.facebook.com/kmairaviation"
   },
   {
     icon: FaLinkedinIn ,
-    href: ""
+    href: "https://linkedin.com/company/km-air-aviation"
   },
   {
     icon: FaWhatsapp ,

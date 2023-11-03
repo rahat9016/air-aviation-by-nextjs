@@ -31,7 +31,7 @@ const Contact_ = () => {
                                 </li>
                                 <li className="text-sm">Say Hello To Us</li>
                                 <li className="text-[#FFDBA6] text-base">
-                                    info@kmcargo.com.my
+                                info@kmairaviation.com
                                 </li>
                             </ul>
                             <ul className="text-center mb-2">
