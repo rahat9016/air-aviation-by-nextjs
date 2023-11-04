@@ -80,7 +80,7 @@ export function TopBar() {
                             className="font-medium text-white font-inter text-base py-2"
                         >
                             <Link
-                                to={"#"}
+                                to={navItem?.location || ''}
                                 className={`${
                                     navItem?.location === pathname
                                         ? "bg-secondary block px-10 py-2 rounded-sm shadow-lg"
@@ -133,7 +133,7 @@ export function TopBar() {
                                     
                                 </Link>
                                 {/* show children */}
-                                {navItem && navItem?.children && (
+                                {/* {navItem && navItem?.children && (
                                     <ul className="absolute left-0 w-[320px] top-[-999990px] group-hover:top-[42px] z-50 bg-white">
                                         {navItem?.children?.map(
                                             (item, index) => (
@@ -152,7 +152,7 @@ export function TopBar() {
                                             )
                                         )}
                                     </ul>
-                                )}
+                                )} */}
                             </li>
                         );
                     })}

@@ -3,19 +3,15 @@ import Service_Card from "./Service_Card";
 import vector_Bg from "../../assets/vector_bg.png";
 const Service_Box = () => {
     return (
-        <div className="container px-mobileContainer xl:px-0 bg-white shadow-3xl ">
+        <div className="container px-mobileContainer xl:px-0 bg-white shadow-3xl">
             <div
-                className=" bg-no-repeat bg-top mb-20 pb-10"
+                className=" bg-no-repeat bg-top mb-20 pb-10 bg-contain"
                 style={{ backgroundImage: `url(${vector_Bg})` }}
             >
-                <div className="text-center text-lg md:text-xl xl:text-2xl font-bold text-primary py-10 md:py-16 lg:py-24 xl:py-40">
-                    <h1>
-                        We’ve got
-                        <br />
-                        a full range of
-                        <br />
-                        transportation & logistics services
-                    </h1>
+                <div className="text-center py-10 md:py-16 lg:py-24 xl:py-40">
+                    <h2 className="font-inter text-base lg:text-2xl">We’ve got a full range of</h2>
+                    <h1 className="font-inter text-lg lg:text-[32px] font-bold">Transportation & Logistics Services</h1>
+                    <span className="block w-[35px] h-[3px] bg-secondary mx-auto rounded-full mt-7"></span>
                 </div>
                 {service_data?.map((service, index) => {
                     return (
@@ -26,6 +22,7 @@ const Service_Box = () => {
                             }`}
                         >
                             <Service_Card
+                                id={service?.id}
                                 img={service?.img}
                                 title={service.title}
                                 desc={service.desc}

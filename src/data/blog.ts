@@ -1,6 +1,6 @@
 export const blogData = [
     {
-        id: `km-air-${Math.random() * 100000 }-${new Date()}`,
+        id: `km-air-${Math.random() * 100000 }-${new Date().toLocaleDateString()}`,
         date: "",
         title: "",
         cover: "",
@@ -38,7 +38,7 @@ export const blogData = [
         ],        
     },
     {
-        id: `km-air-${Math.random() * 100000 }-${new Date()}`,
+        id: `km-air-${Math.random() * 100000 }-${new Date().toLocaleDateString()}`,
         date: "",
         title: "",
         cover: "",

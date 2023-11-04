@@ -10,7 +10,7 @@ export function Services (){
     <Layout>
       <ReactHelmet title='Services' />
         <Common_Hero bg={bg}  />
-        <div className='mt-0 lg:-mt-28'>
+        <div className='lg:-mt-80'>
           <Service_Box />
         </div>
     </Layout>

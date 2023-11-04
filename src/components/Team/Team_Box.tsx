@@ -1,13 +1,20 @@
 
 import { teamData } from '../../data/team';
 import Team_Card from './Team_Card';
+import bg from "../../assets/vector_bg_2.png"
 
 const Team_Box = () => {
     return (
-        <div className='container px-mobileContainer xl:px-20 py-20 bg-white '>
+        <div className=' py-10 lg:py-20'>
+            <div
+            className=" bg-no-repeat bg-top  bg-contain"
+            style={{ backgroundImage: `url(${bg})` }}
+            >
+
             {
                 teamData.map((team, index) => <Team_Card team={team} index={index} />)
             }
+            </div>
         </div>
     );
 };

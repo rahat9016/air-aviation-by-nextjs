@@ -20,11 +20,10 @@ export function Hero () {
           {HeroData.map(data => {
           return <div key={data.title} className='relative'>
             <img src={data.bannerImage} alt="" className='w-full h-[150px] xlg:h-[180px] sm:h-[320px] xl:h-[675px]'/>
-            <div className='container px-mobileContainer xl:px-0 absolute left-1/2 top-[30%] -translate-x-1/2 -translate-y-1/2 text-center'>
+            {/* <div className='container px-mobileContainer xl:px-0 absolute left-1/2 top-[30%] -translate-x-1/2 -translate-y-1/2 text-center'>
             <h1 className='text-base sm:text-2xl lg:text-3xl xl:text-5xl font-bold text-white sm:mb-2 xl:mb-4'>{data.title}</h1>
               <h2 className='mb-2 sm:mb-4 xl:mb-10 text-xs sm:text-lg lg:text-xl xl:text-2xl text-white '>{data.subTitle}</h2>
-              {/* <button className='bg-secondary text-white font-inter text-xs xl:text-base font-semibold px-2 py-1 sm:px-4 sm:py-2 xl:px-8 xl:py-3 rounded-full'>Learn More</button> */}
-            </div>
+            </div> */}
           </div>})}
       </Slider>
     </div>

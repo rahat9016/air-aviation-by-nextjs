@@ -3,14 +3,19 @@ import { ReactHelmet } from '../components/common/Helmet'
 import Common_Hero from '../components/Common_Hero'
 import bg from "../assets/our_team_hero_bg.png"
 import Team_Box from '../components/Team/Team_Box'
+import { goToTop } from '../utility/goToTop'
+import Meet_Team_Box from '../components/Team/Meet_Team_Box'
 export function Team () {
+  goToTop()
   return (
     <Layout>
       <ReactHelmet title='Team' />      
       <Common_Hero bg={bg}  />
-      <div className='-mt-80'>
+      <div className='lg:-mt-80 container px-mobileContainer xl:px-20 bg-white shadow-3xl'>
       <Team_Box/>
+      <Meet_Team_Box />
       </div>
+      
     </Layout>
   )
 }

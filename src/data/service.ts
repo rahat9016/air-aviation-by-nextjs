@@ -56,7 +56,7 @@ export const service_data = [
     {
         id: 5,
         img: img2,        
-        title: "Special Handling - (Express Delivery)",
+        title: "Special Handling",
         sub_title: "CROSS-BORDER",
         desc: "KM Air Aviation has recognized this demand and risen to the occasion by offering Express Delivery services that set new standards in speed, reliability, and efficiency. With a commitment to excellence in aviation, KM Air Aviation's Express Delivery service is a game-changer for businesses and individuals who require the rapid and secure transportation of people and goods.",
         location: "/services",

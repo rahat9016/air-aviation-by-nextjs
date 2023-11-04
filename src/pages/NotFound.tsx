@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom'
 
 import { Layout } from '../components/common/Layout'
 import { ReactHelmet } from '../components/common/Helmet'
+import { goToTop } from '../utility/goToTop'
 export function NotFound () {
+  goToTop()
   return (
     <Layout>
       <ReactHelmet title='Not Found' />

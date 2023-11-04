@@ -1,4 +1,6 @@
-import hero_bg from "../assets/hero_bg1.png"
+import hero_bg1 from "../assets/hero_bg1.png"
+import hero_bg2 from "../assets/hero_bg2.png"
+import hero_bg3 from "../assets/hero_bg3.png"
 import { BiLogoFacebook } from 'react-icons/bi';
 import { FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 // ---------------Nav Data-----------------
@@ -53,19 +55,19 @@ export const HeroData = [
     title: 'Inspiring Aviation, Empowering You',
     subTitle: 'We\'re ready when you are',
     btnUrl: '#',
-    bannerImage: hero_bg,
+    bannerImage: hero_bg1,
   },
   {
     title: 'Inspiring Aviation, Empowering You',
     subTitle: 'We\'re ready when you are',
     btnUrl: '#',
-    bannerImage: hero_bg,
+    bannerImage: hero_bg2,
   },
   {
     title: 'Inspiring Aviation, Empowering You',
     subTitle: 'We\'re ready when you are',
     btnUrl: '#',
-    bannerImage: hero_bg,
+    bannerImage: hero_bg3,
   },
 ]
 export const WhyData = [

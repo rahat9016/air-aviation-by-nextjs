@@ -6,7 +6,9 @@ import { useLocation } from "react-router-dom";
 import { service_data } from "../data/service";
 import { NotFound } from "./NotFound";
 import vector_Bg  from "../assets/vector_bg.png"
+import { goToTop } from '../utility/goToTop';
 const Services_Details = () => {
+    goToTop()
     const { pathname } = useLocation();
     const path = pathname.split('/')[2]
     const service = service_data?.find(data => data.id.toString() == path)

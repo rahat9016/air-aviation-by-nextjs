@@ -3,7 +3,10 @@ import { ReactHelmet } from "../components/common/Helmet";
 import { Layout } from "../components/common/Layout";
 import bg from "../assets/blog_hero_bg.png"
 import circle from "../assets/circle.png"
+import { goToTop } from "../utility/goToTop";
+// import { blogData } from "../data/blog";
 const Blog = () => {
+    goToTop()
     return (
         <Layout>
             <ReactHelmet title='Blog' />
