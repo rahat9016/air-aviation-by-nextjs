@@ -1,6 +1,6 @@
-import hero_bg1 from "../assets/hero_bg1.png"
-import hero_bg2 from "../assets/hero_bg2.png"
-import hero_bg3 from "../assets/hero_bg3.png"
+import hero_bg1 from "../assets/banner2.jpg"
+import hero_bg2 from "../assets/banner3.jpg"
+import hero_bg3 from "../assets/banner-1.jpg"
 import { BiLogoFacebook } from 'react-icons/bi';
 import { FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 // ---------------Nav Data-----------------

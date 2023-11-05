@@ -20,14 +20,14 @@ export function TopBar() {
     const path = pathname.split('/')[1]
     return (
         <div className=" z-50">
-            <div className="h-[70px] md:h-[80px] lg:h-[80px] flex items-center justify-center bg-white shadow-2xl font-inter">
+            <div className="h-[70px] md:h-[80px] lg:h-[90px] flex items-center justify-center bg-white shadow-2xl font-inter">
                 <div className="container px-mobileContainer xl:px-0">
                     <div className="flex justify-between items-center">
                         <Link to={"/"}>
                             <img
                                 src={Logo}
                                 alt="KM group"
-                                className="w-[70px] xl:w-[100px]"
+                                className="w-[60px] xl:w-[85px]"
                             />
                         </Link>
                         <ul className="hidden lg:flex items-center text-right gap-14">

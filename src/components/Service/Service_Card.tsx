@@ -18,7 +18,7 @@ const Service_Card = ({
     const navigate = useNavigate()
     return (
         <div
-            className={`w-full lg:w-[62.5%] flex flex-col bg-primary rounded-[15px] overflow-hidden  ${
+            className={`w-full lg:w-[62.5%] flex flex-col bg-primary  overflow-hidden  ${
                 index % 2 == 0 ? "md:flex-row" : "md:flex-row-reverse"
             } `}
         >

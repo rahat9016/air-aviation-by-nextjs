@@ -1,10 +1,10 @@
 import img1 from "../assets/Cross-Border-.png"
-import img2 from "../assets/Express_Delivery.png"
-import img3 from "../assets/Cargo.png"
+import img2 from "../assets/Special_Handling.jpg"
+import img3 from "../assets/Cargo.webp"
 import img4 from "../assets/WORLDWIDE.png"
 import img5 from "../assets/EXPRESS_DELIVERY.png"
 import home_service_img1 from "../assets/home_service1.png"
-import home_service_img2 from "../assets/home_service2.png"
+import home_service_img2 from "../assets/Cargo.webp"
 import home_service_img3 from "../assets/home_service3.png"
 import home_service_img4 from "../assets/home_service4.png"
 import home_service_icon1 from "../assets/home_barrier.png"
@@ -48,7 +48,7 @@ export const service_data = [
         img: img4,
         bg_img: home_service_img3,
         icon: home_service_icon3,
-        title: "WORLDWIDE TRANSPORT",
+        title: "worldwide transport",
         sub_title: "CROSS-BORDER",
         desc: "KM Air Aviation's worldwide transport services offer global connectivity on a       scale that few can match. The company's expansive network of international routes connects major cities and regions across the globe. Whether you're looking to transport goods, send urgent cargo, or embark on international travel, KM Air Aviation ensures that the world is just a flight away.",
         location: "/services",

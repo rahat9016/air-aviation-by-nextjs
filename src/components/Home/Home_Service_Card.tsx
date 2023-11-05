@@ -17,8 +17,8 @@ const Home_Service_Card = ({ service }: {service: IServiceDataType}) => {
             <div className="w-full h-full bg-no-repeat bg-center bg-cover group" style={{ backgroundImage: `url(${service.img})` }}>
             <div className="w-full h-full duration-300 bg-[rgba(59,92,119,0.50)] group-hover:bg-[rgba(59,92,119,0.85)]  flex flex-col items-center justify-center text-center">
                 <img src={service.icon} alt="KM" className="mb-8 duration-300 hidden group-hover:block" />
-                <h1 className="text-white font-bold text-xl lg:text-2xl mb-5">{service.title}</h1>
-                <h3 className="text-white font-medium text-sm lg:text-base">{service.sub_title}</h3>
+                <h1 className="text-white font-bold text-xl lg:text-2xl mb-5 capitalize">{service.title}</h1>
+                {/* <h3 className="text-white font-medium text-sm lg:text-base">{service.sub_title}</h3> */}
             </div>
             </div>
         </div>

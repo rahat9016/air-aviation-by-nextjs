@@ -11,7 +11,7 @@ export function Team () {
     <Layout>
       <ReactHelmet title='Team' />      
       <Common_Hero bg={bg}  />
-      <div className='lg:-mt-80 container px-mobileContainer xl:px-20 bg-white shadow-3xl'>
+      <div className='lg:-mt-80 container px-mobileContainer xl:px-20 bg-white drop-shadow-md'>
       <Team_Box/>
       <Meet_Team_Box />
       </div>

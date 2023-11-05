@@ -5,8 +5,11 @@ import bg from "../assets/blog_hero_bg.png"
 import circle from "../assets/circle.png"
 import { goToTop } from "../utility/goToTop";
 // import { blogData } from "../data/blog";
+// import Blog_Card from "../components/Blog/Blog_Card";
+// import { blogData } from "../data/blog";
 const Blog = () => {
     goToTop()
+    
     return (
         <Layout>
             <ReactHelmet title='Blog' />
@@ -18,8 +21,11 @@ const Blog = () => {
                         a full range of<br />
                         transportation & logistics services</h1>
                 </div>
+                {/* {
+                    blogData.map((blog)=><Blog_Card blog={blog}/>)
+                } */}
             </div>
-            <div>a</div>
+            {/* <div>Learn about the essential, in’s and out’s of the logistics world</div> */}
         </Layout>
     );
 };

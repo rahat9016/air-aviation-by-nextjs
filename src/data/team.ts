@@ -18,7 +18,7 @@ export const teamData = [
     {
         profile: profile,
         comment: "Embrace the freedom of the open skies, where clouds are your companions and horizons are endless. In the world of aviation, every flight is a new chapter, every landing a triumph. May your journeys be smooth, your skies clear, and your passion for flying forever ignite. Blue skies and tailwinds to you, always!",
-        name: "Kazi Fahad Mostafa",
+        name: "Kazi Jahid Mostafa",
         position: "Cheif Executive Officer",
 
     },
@@ -26,7 +26,7 @@ export const teamData = [
 export const meatTeamData = [
     {
         profile: profile,
-        name: "KAZI JAHID MOSTAFA",
+        name: "KAZI Jahid MOSTAFA",
         position: "MANAGING DIRECTOR",
 
     },

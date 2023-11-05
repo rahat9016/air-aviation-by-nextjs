@@ -1,7 +1,7 @@
 import Common_Hero from "../components/Common_Hero";
 import { ReactHelmet } from "../components/common/Helmet";
 import { Layout } from "../components/common/Layout";
-import bg from "../assets/about_bg.png";
+import bg from "../assets/about-us-banner.jpg";
 import double_circle from "../assets/double_circle.png";
 import { aboutData } from "../data/about";
 import { goToTop } from "../utility/goToTop";
