@@ -17,16 +17,16 @@ const Services_Details = () => {
         <Layout>
         <ReactHelmet title={service?.title} />
           <Common_Hero bg={bg}  />
-          <div className='mt-0 lg:-mt-28 bg-white drop-shadow-md container px-mobileContainer xl:px-0 mb-8 lg:mb-10 xl:mb-20'>
-                <div className="px-10 bg-no-repeat bg-top mb-20 pb-10"
+          <div className='px-mobileContainer mt-0 lg:-mt-28 bg-white drop-shadow-md container  mb-8 lg:mb-10 xl:mb-20'>
+                <div className="bg-no-repeat bg-top bg-contain mb-20 pb-10"
                 style={{ backgroundImage: `url(${vector_Bg})` }}>
-                <div className="text-center pt-28">
+                <div className="text-center pt-8 lg:pt-28">
                     <h1 className="font-inter font-bold text-2xl text-primary">{service?.title}</h1>
                 </div>
-                <div className="grid grid-cols-1 lg:grid-cols-2 py-28">
+                <div className="grid grid-cols-1 lg:grid-cols-2 py-10 lg:py-28">
                     <div className="bg-primary p-10 text-center ">
-                    <h1 className="font-inter font-bold text-2xl text-white mb-8">{service?.title}</h1>
-                    <p className="text-white">{service?.desc}</p>
+                    <h1 className="font-inter font-bold text-xl lg:text-2xl text-white mb-3 lg:mb-8">{service?.title}</h1>
+                    <p className="text-white text-sm lg:text-base">{service?.desc}</p>
                     </div>
                     <div>
                         <img src={service?.img} alt="KM" className="w-full h-full" />

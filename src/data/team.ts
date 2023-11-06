@@ -1,4 +1,8 @@
 import profile from "../assets/profile.png"
+import riad_img from "../assets/riad.png"
+import yasin_img from "../assets/yasin.png"
+import khademul_img from "../assets/khademul.png"
+import mahfuza_img from "../assets/mahfuza.png"
 export const teamData = [
     {
         profile: profile,
@@ -27,30 +31,30 @@ export const meatTeamData = [
     {
         profile: profile,
         name: "KAZI Jahid MOSTAFA",
-        position: "MANAGING DIRECTOR",
+        position: "Chief executive officer (CEO)",
 
     },
     
     {
-        profile: profile,
+        profile: riad_img,
         name: "RIAD MAHMUD",
         position: "MANAGER - CARGO",
 
     },
     {
-        profile: profile,
+        profile: yasin_img,
         name: "MD YASIN ARAFAT",
         position: "MANAGER - ACCOUNTS",
 
     },
     {
-        profile: profile,
+        profile: khademul_img,
         name: "MD KHADEMUL ISLAM",
         position: "MANAGER - OPERATION",
 
     },
     {
-        profile: profile,
+        profile: mahfuza_img,
         name: "MAHFUZA AKHTER",
         position: "MANAGER - HR",
 
