@@ -1,18 +1,19 @@
 import { service_data } from "../../data/service";
 import Service_Card from "./Service_Card";
 import vector_Bg from "../../assets/vector_bg.png";
+import Span from "../Span";
 const Service_Box = () => {
     return (
-        <div className="container px-mobileContainer xl:px-0 bg-white drop-shadow-2xl">
+        <div className="container px-mobileContainer xl:px-0 bg-white pt-12 drop-shadow-2xl">
             <div
                 className=" bg-no-repeat bg-top mb-20  bg-contain"
                 style={{ backgroundImage: `url(${vector_Bg})` }}
             >
-                <div className="text-center py-10 md:py-16 lg:py-24  ">
+                <div className="text-center py-10 md:py-16 lg:pb-24 lg:pt-22 ">
                     <h2 className="font-inter text-base lg:text-2xl leading-10 text-[#3B5C77]">We’ve got a full range of</h2>
                     <h1 className="font-inter text-lg lg:text-[32px] font-bold text-[#3B5C77] leading-normal
-                    ">Transportation & Logistics Services</h1>
-                    <span className="block w-[35px] h-[3px] bg-secondary mx-auto rounded-full mt-3 lg:mt-7"></span>
+                    mb-6">Transportation & Logistics Services</h1>
+                    <Span />
                 </div>
                 {service_data?.map((service, index) => {
                     return (

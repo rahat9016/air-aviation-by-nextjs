@@ -7,7 +7,7 @@ const Team_Box = () => {
     return (
         <div className=' py-10 lg:py-20'>
             <div
-            className=" bg-no-repeat bg-top  bg-contain"
+            className=" bg-no-repeat bg-top  bg-contain flex flex-col items-center"
             style={{ backgroundImage: `url(${bg})` }}
             >
 

@@ -55,6 +55,12 @@ export const HeroData = [
     title: 'Inspiring Aviation, Empowering You',
     subTitle: 'We\'re ready when you are',
     btnUrl: '#',
+    bannerImage: hero_bg3,
+  },
+  {
+    title: 'Inspiring Aviation, Empowering You',
+    subTitle: 'We\'re ready when you are',
+    btnUrl: '#',
     bannerImage: hero_bg1,
   },
   {
@@ -63,12 +69,7 @@ export const HeroData = [
     btnUrl: '#',
     bannerImage: hero_bg2,
   },
-  {
-    title: 'Inspiring Aviation, Empowering You',
-    subTitle: 'We\'re ready when you are',
-    btnUrl: '#',
-    bannerImage: hero_bg3,
-  },
+  
 ]
 export const WhyData = [
   {

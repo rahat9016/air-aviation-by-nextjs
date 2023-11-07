@@ -2,9 +2,11 @@ import Common_Hero from "../components/Common_Hero";
 import { ReactHelmet } from "../components/common/Helmet";
 import { Layout } from "../components/common/Layout";
 import bg from "../assets/about-us-banner.jpg";
+import about_circle from "../assets/circle_about.png";
 import double_circle from "../assets/double_circle.png";
 import { aboutData } from "../data/about";
 import { goToTop } from "../utility/goToTop";
+import Span from "../components/Span";
 const About = () => {
     goToTop()
     return (
@@ -16,22 +18,22 @@ const About = () => {
                     <h1 className="text-primary font-bold text-2xl xl:text-[40px] mb-[22px]">
                         About Us
                     </h1>
-                    <p className="text-primary font-medium mb-[22px]">
+                    <p className="text-primary font-medium mb-[19px]">
                         Sky is not the limit, we are ready when you are
                     </p>
-                    <span className="block w-[40px] h-[3px] bg-secondary rounded-full mx-auto"></span>
+                    <Span />
                 </div>
                 <div className="xl:px-56 text-center ">
                     <div
-                        style={{ backgroundImage: `url(${double_circle})` }}
-                        className=" bg-no-repeat bg-[70%] bg-contain pt-6 xl:pt-10 pb-16 xl:pb-28"
+                        style={{ backgroundImage: `url(${about_circle})` }}
+                        className="bg-no-repeat  bg-center py-24"
                     >
                         <h1 className="font-bold text-2xl text-primary">
                             <span className="font-normal">WE ARE</span> KM AIR
                             AVIATION LTD.
                         </h1>
                     </div>
-                    <p>
+                    <p className="text-primary font-medium font-inter text-sm">
                         KM Air Aviation Ltd. is a leading name in the aviation
                         industry, committed to providing top-notch air travel
                         experiences for passengers around the world. As a
@@ -57,7 +59,7 @@ const About = () => {
                 <div className="basis-[40%] h-[480px] bg-white  shadow-2xl px-12">
                     <div
                         style={{ backgroundImage: `url(${double_circle})` }}
-                        className=" bg-no-repeat bg-[70%] text-center bg-contain pb-6 lg:pb-12 lg:pt-20"
+                        className=" bg-no-repeat bg-[70%] text-right-top bg-contain pb-6 lg:pb-12 lg:pt-20"
                     >
                         <h1 className="font-bold lg:text-2xl text-primary">WHY CHOOSE US</h1>
                     </div>

@@ -4,9 +4,7 @@ import { Button } from "../common/Button";
 import { useSentMessage } from "../../hooks/useMessageHook";
 import { useReCaptcha } from "../../hooks/useContext";
 import ReCAPTCHA from "react-google-recaptcha";
-const SECRET_API = import.meta.env.VITE_APP_SECRET_CAPTCHA;
 const Request_Feedback = () => {
-    // const {  } = useSentMessage()
     const {
         handleChange,
         handleContactForm,
@@ -80,7 +78,7 @@ const Request_Feedback = () => {
                         {(contactInfo?.name && contactInfo?.phone &&
                         contactInfo.comment ) ? 
                         <ReCAPTCHA
-                            sitekey={SECRET_API}
+                            sitekey={"6LdK6E8oAAAAAJ6D_-rvV7WvtnbCabxA_gtDogTA"}
                             onChange={verifyCaptcha}
                             onExpired={resetReCaptcha}
                         />

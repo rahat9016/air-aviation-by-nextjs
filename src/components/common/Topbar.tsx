@@ -35,7 +35,7 @@ export function TopBar() {
                                 <HelpCenter className="text-primary" />
                             </li>
                             <li>
-                                <ul className="flex gap-[10px] text-primary text-xl">
+                                <ul className="flex gap-5 text-primary text-xl">
                                     {socialLink?.map((social, index) => {
                                         return (
                                             social.href != "" && (

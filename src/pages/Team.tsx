@@ -1,7 +1,7 @@
 import { Layout } from '../components/common/Layout'
 import { ReactHelmet } from '../components/common/Helmet'
 import Common_Hero from '../components/Common_Hero'
-import bg from "../assets/our_team_hero_bg.png"
+import bg from "../assets/our_team_hero_bg.jpg"
 import Team_Box from '../components/Team/Team_Box'
 import { goToTop } from '../utility/goToTop'
 import Meet_Team_Box from '../components/Team/Meet_Team_Box'
