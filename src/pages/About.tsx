@@ -18,15 +18,15 @@ const About = () => {
                     <h1 className="text-primary font-bold text-2xl xl:text-[40px] mb-[22px]">
                         About Us
                     </h1>
-                    <p className="text-primary font-medium mb-[19px]">
+                    <p className="text-primary font-medium mb-[19px] text-base">
                         Sky is not the limit, we are ready when you are
                     </p>
                     <Span />
                 </div>
-                <div className="xl:px-56 text-center ">
+                <div className="xl:px-48 text-center ">
                     <div
                         style={{ backgroundImage: `url(${about_circle})` }}
-                        className="bg-no-repeat  bg-center py-24"
+                        className="bg-no-repeat bg-top xs:bg-top-0 sm:bg-top-1 md:bg-top-2 lg:bg-top-3 xl:bg-top-4 pt-14 pb-20"
                     >
                         <h1 className="font-bold text-2xl text-primary">
                             <span className="font-normal">WE ARE</span> KM AIR
@@ -56,15 +56,15 @@ const About = () => {
                         allowFullScreen
                     ></iframe>
                 </div>
-                <div className="basis-[40%] h-[480px] bg-white  shadow-2xl px-12">
+                <div className="basis-[40%] h-[480px] bg-white  drop-shadow-2xl px-8 lg:px-[95px] ">
                     <div
                         style={{ backgroundImage: `url(${double_circle})` }}
-                        className=" bg-no-repeat bg-[70%] text-right-top bg-contain pb-6 lg:pb-12 lg:pt-20"
+                        className=" flex justify-center w-full bg-no-repeat bg-[80%] text-right-top bg-[length:100px_100px] pb-6 lg:pb-12 lg:pt-20"
                     >
-                        <h1 className="font-bold lg:text-2xl text-primary">WHY CHOOSE US</h1>
+                        <h1 className="font-bold lg:text-2xl text-primary text-center">WHY CHOOSE US</h1>
                     </div>
-                    <p className="text-primary text-xs text-center">SAFETY IS THE DRIVING FORCE BEHIND EVERYTHING WE DO AT TRUCKY TRANSPORTATION COMPANY. </p>
-                    <div className="grid grid-cols-2 my-14 gap-5">
+                    <p className="text-primary text-xs text-center font-medium">SAFETY IS THE DRIVING FORCE BEHIND EVERYTHING WE DO AT TRUCKY TRANSPORTATION COMPANY. </p>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 my-14 gap-5">
                       {aboutData.map((data, index) => <div key={index} >
                         <img src={data?.img} alt="KM" className="mx-auto mb-3" />
                         <h2 className="text-center text-primary font-bold">{data?.title}</h2>

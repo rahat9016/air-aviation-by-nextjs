@@ -1,5 +1,5 @@
-import req_bg from "../../assets/request_bg.png";
-import km_white from "../../assets/km_white.png";
+import req_bg from "../../assets/request_bg.jpg";
+// import km_white from "../../assets/km_white.png";
 import { Button } from "../common/Button";
 import { useSentMessage } from "../../hooks/useMessageHook";
 import { useReCaptcha } from "../../hooks/useContext";
@@ -29,11 +29,11 @@ const Request_Feedback = () => {
                             alt=""
                             className="w-full h-full  "
                         />
-                        <img
+                        {/* <img
                             src={km_white}
                             alt=""
                             className="w-[80px] lg:w-[140px] absolute top-[83%] left-[83%] -translate-x-1/2 -translate-y-1/2"
-                        />
+                        /> */}
                     </div>
                     <form onSubmit={handleContactForm} className="basis-full lg:basis-1/2">
                         <div className="flex flex-col lg:flex-row  gap-2">

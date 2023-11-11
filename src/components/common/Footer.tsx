@@ -5,7 +5,7 @@ import HelpCenter from "./HelpCenter";
 export function Footer() {
     return (
         <div>
-            <div className="bg-primary w-full pt-10 pb-2 relative">
+            <div className="bg-primary w-full pt-10 pb-2 relative px-mobileContainer lg:px-0">
                 <div className="container px-2">
                     <div className="lg:flex justify-between">
                         <div className="text-center lg:text-left">
@@ -49,9 +49,9 @@ export function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div className="flex items-center justify-between mt-8">
+                    <div className="flex flex-col md:flex-row items-center justify-between mt-8">
                         <p className="text-center lg:text-left text-xs lg:text-sm text-white ">
-                            Copyrights@2023 by KM Air AVIATION. All Rights
+                            Copyrights@2023 by KM Air Aviation. All Rights
                             Reserved{" "}
                         </p>
                         <Link

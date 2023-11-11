@@ -12,7 +12,7 @@ const Service_Box = () => {
                 <div className="text-center py-10 md:py-16 lg:pb-24 lg:pt-22 ">
                     <h2 className="font-inter text-base lg:text-2xl leading-10 text-[#3B5C77]">We’ve got a full range of</h2>
                     <h1 className="font-inter text-lg lg:text-[32px] font-bold text-[#3B5C77] leading-normal
-                    mb-6">Transportation & Logistics Services</h1>
+                    mb-4">Transportation & Logistics Services</h1>
                     <Span />
                 </div>
                 {service_data?.map((service, index) => {

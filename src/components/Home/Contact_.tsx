@@ -41,7 +41,7 @@ const Contact_ = () => {
                                 <li className="text-sm md:text-base">
                                     Ahmed Plaza, Level-05(Lift 04)
                                     <br />
-                                    House-06, Road-02, Sector-03
+                                    Plot-06, Road-02, Sector-03
                                     <br />
                                     Jashimuddin Ave, Uttara,<br/> Dhaka-1230
                                 </li>
@@ -58,7 +58,7 @@ const Contact_ = () => {
                         </div>
                     </div>
                     <div className="w-full">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1824.393622020132!2d90.39758488715296!3d23.861687543332867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c59f5999a26d%3A0x6f32756b999a2c2a!2sKM%20Group%20BD!5e0!3m2!1sen!2sbd!4v1695803803001!5m2!1sen!2sbd" width="100%" height="100%" style={{ border: 0 }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1278.1455302999518!2d90.39920640206152!3d23.861701732450918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c518835e70a3%3A0x57fa86869e8268ee!2sKM%20Air%20Aviation%20LTD!5e0!3m2!1sen!2sbd!4v1699673782363!5m2!1sen!2sbd" width="100%" height="100%" style={{ border: 0 }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <div />
                 </div>

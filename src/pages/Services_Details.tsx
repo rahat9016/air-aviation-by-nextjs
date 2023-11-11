@@ -22,7 +22,7 @@ const Services_Details = () => {
                 <div className="bg-no-repeat bg-contain mb-20 pb-10"
                 style={{ backgroundImage: `url(${vector_Bg})` }}>
                 <div className="text-center pt-8 lg:pt-[60px]">
-                    <h1 className="font-inter font-bold text-[40px] text-primary mb-[19px]">{service?.title}</h1>
+                    <h1 className="font-inter font-bold text-3xl lg:text-[40px] text-primary mb-[19px]">{service?.title}</h1>
                     <Span />
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-2 py-10 lg:py-28 ">

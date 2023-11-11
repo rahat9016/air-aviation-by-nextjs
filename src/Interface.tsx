@@ -111,3 +111,18 @@ export interface ITrackingDataType {
     status: string;
     to: string;
 }
+export interface IBlogType {
+    id: number;
+    date: string;
+    readTime: string;
+    title: string;
+    subTitle: string;
+    start_desc: string;
+    end_desc: string;
+    profile: string;
+    cover: string;
+    points: { 
+        point: { title: string; desc: string };
+        listPoint? : { title?: string; desc?: string }[]
+    }[];
+}
