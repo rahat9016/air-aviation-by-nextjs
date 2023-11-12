@@ -1,5 +1,5 @@
 
-import Commitment from "../components/Home/Commitment"
+// import Commitment from "../components/Home/Commitment"
 import Contact_ from "../components/Home/Contact_"
 import Request_Feedback from "../components/Home/Request_Feedback"
 import Success from "../components/Home/Success"

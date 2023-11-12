@@ -107,15 +107,16 @@ export function TopBar() {
                 </ul>
             </nav>
             {/* --------------------desktop menu---------------- */}
-            <nav className={` ${pathname!=="/" ? " bg-white   shadow-3xl":"bg-transparent"} h-[50px] xl:h-[100px] hidden lg:flex items-center justify-center z-50 sticky top-0`}>
-                <ul className="flex gap-2 items-center ">
-                     <Link to={"/"}>
+            <nav className={` ${pathname!=="/" ? " bg-white  h-[50px] xl:h-[100px] hidden shadow-3xl lg:flex items-center lg:justify-evenly":"bg-transparent"} h-[50px] xl:h-[100px] hidden lg:flex items-center lg:justify-evenly z-50 sticky top-0`}>
+            <Link to={"/"}>
                             <img
                                 src={Logo}
                                 alt="KM group"
                                 className="w-[60px] xl:w-[85px]"
                             />
                         </Link>
+                <ul className="flex gap-2 items-center ">
+                     
                     {NavData.map((navItem: NavItemType, index) => {
                         return (
                             <li key={index} className="relative group">

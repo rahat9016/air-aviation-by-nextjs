@@ -4,16 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-<<<<<<< HEAD
-        primary: '#204868',
-        secondary: '#EA244E',
-        gray: "#BBBBBB"
-=======
-        primary: "#3B5C77",
+        primary: "#204868",
         secondary: "#EA244E",
         gray: "#BBBBBB",
         blue: "#204868",
->>>>>>> origin/safia/dev
       },
       container: {
         center: true,
