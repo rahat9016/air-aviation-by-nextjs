@@ -24,7 +24,7 @@ const Blog_Card = ({ blog }: { blog: IBlogType }) => {
                     onClick={() => navigate(`/blog-page/${blog.id}`)}
                 >
                     Read More
-                    <span className="w-[70%] group-hover:w-full h-[1px] duration-300 bg-primary block"></span>
+                    <span className="w-[70%] group-hover:w-full h-[1.5px] duration-300 bg-primary block"></span>
                 </button>
             </div>
         </div>
