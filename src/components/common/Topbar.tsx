@@ -20,17 +20,11 @@ export function TopBar() {
     const path = pathname.split('/')[1]
     return (
         <div className=" z-50">
-            <div className="h-[70px] md:h-[80px] lg:h-[90px] flex items-center justify-center bg-white shadow-2xl font-inter">
+            <div className={`flex items-center justify-center ${pathname!=="/" ? " bg-white shadow-2xl ":"bg-transparent"}  font-inter`}>
                 <div className="container px-mobileContainer xl:px-0">
                     <div className="flex justify-between items-center">
-                        <Link to={"/"}>
-                            <img
-                                src={Logo}
-                                alt="KM group"
-                                className="w-[60px] xl:w-[85px]"
-                            />
-                        </Link>
-                        <ul className="hidden lg:flex items-center text-right gap-14">
+                       
+                        {/* <ul className="hidden lg:flex items-center text-right gap-14">
                             <li>
                                 <HelpCenter className="text-primary" />
                             </li>
@@ -53,7 +47,7 @@ export function TopBar() {
                                     })}
                                 </ul>
                             </li>
-                        </ul>
+                        </ul> */}
                         <div
                             className="w-8 h-8  flex items-center justify-center rounded-sm cursor-pointer lg:hidden  "
                             onClick={() => setOpen(!open)}
@@ -112,8 +106,16 @@ export function TopBar() {
                     </ul>
                 </ul>
             </nav>
-            <nav className="bg-primary h-[50px] xl:h-[60px] hidden lg:flex items-center justify-center shadow-3xl z-50 sticky top-0">
-                <ul className="flex gap-2">
+            {/* --------------------desktop menu---------------- */}
+            <nav className={` ${pathname!=="/" ? " bg-white   shadow-3xl":"bg-transparent"} h-[50px] xl:h-[100px] hidden lg:flex items-center justify-center z-50 sticky top-0`}>
+                <ul className="flex gap-2 items-center ">
+                     <Link to={"/"}>
+                            <img
+                                src={Logo}
+                                alt="KM group"
+                                className="w-[60px] xl:w-[85px]"
+                            />
+                        </Link>
                     {NavData.map((navItem: NavItemType, index) => {
                         return (
                             <li key={index} className="relative group">
@@ -123,11 +125,11 @@ export function TopBar() {
                                             ? navItem.location
                                             : "#"
                                     }
-                                    className={`transition-all duration-300  ${
+                                    className={`transition-all  duration-300  ${
                                         navItem.location === `/${path}`
-                                            ? "bg-secondary rounded-md "
+                                            ? `text-red-500`
                                             : ""
-                                    } font-medium  font-inter text-white text-base py-[15px] xl:py-5 px-2 lg:px-6 xl:px-5 2xl:px-10`}
+                                    } font-medium  font-inter text-primary text-base py-[15px] xl:py-5 px-2 lg:px-6 xl:px-5 2xl:px-10`}
                                 >
                                     {navItem.name}
                                     
@@ -156,6 +158,30 @@ export function TopBar() {
                             </li>
                         );
                     })}
+                    <ul className="hidden lg:flex items-center text-right gap-14">
+                            {/* <li>
+                                <HelpCenter className="text-primary" />
+                            </li> */}
+                            <li>
+                                <ul className="flex gap-5 text-primary text-xl">
+                                    {socialLink?.map((social, index) => {
+                                        return (
+                                            social.href != "" && (
+                                                <li key={index}>
+                                                    {" "}
+                                                    <Link
+                                                        target="_blank"
+                                                        to={social?.href}
+                                                    >
+                                                        {<social.icon />}
+                                                    </Link>
+                                                </li>
+                                            )
+                                        );
+                                    })}
+                                </ul>
+                            </li>
+                        </ul>
                 </ul>
             </nav>
         </div>

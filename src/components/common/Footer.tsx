@@ -13,7 +13,7 @@ export function Footer() {
                                 SIGN UP FOR OUR
                             </p>
                             <h1 className="text-lg lg:text-2xl font-bold text-white">
-                                NEWS LETTER
+                                NEWSLETTER
                             </h1>
                         </div>
                         <div className="w-full md:w-[60%] lg:w-[45%] mx-auto my-4 lg:my-0 flex items-center justify-center gap-1">
@@ -29,7 +29,7 @@ export function Footer() {
                             </button>
                         </div>
                         <div className="flex flex-col lg:flex-row gap-2 lg:gap-8 items-center text-white">
-                            <HelpCenter className="text-white" />
+                            {/* <HelpCenter className="text-white" /> */}
                             <ul className="flex gap-[10px] text-white text-xl">
                                 {socialLink?.map((social, index) => {
                                     return (
@@ -51,7 +51,7 @@ export function Footer() {
                     </div>
                     <div className="flex flex-col md:flex-row items-center justify-between mt-8">
                         <p className="text-center lg:text-left text-xs lg:text-sm text-white ">
-                            Copyrights@2023 by KM Air Aviation. All Rights
+                            Copyrights &copy; 2023 by KM Air Aviation. All Rights
                             Reserved{" "}
                         </p>
                         <Link
@@ -61,7 +61,7 @@ export function Footer() {
                         >
                             {" "}
                             Developed by{" "}
-                            <span className="underline">TECNO BZ</span>{" "}
+                            <span className="underline text-sm capitalize">tecno bz</span>{" "}
                         </Link>
                     </div>
                 </div>

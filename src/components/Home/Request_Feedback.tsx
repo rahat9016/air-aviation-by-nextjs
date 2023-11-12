@@ -23,7 +23,7 @@ const Request_Feedback = () => {
                     Request a feedback
                 </h1>
                 <div className="flex flex-col lg:flex-row gap-6 ">
-                    <div className="relative basis-full lg:basis-1/2 xl:h-[368px]">
+                    <div className="relative basis-full lg:basis-1/2 xl:h-[360px]">
                         <img
                             src={req_bg}
                             alt=""
@@ -71,7 +71,7 @@ const Request_Feedback = () => {
                             cols={30}
                             rows={10}
                             placeholder="Your message here..."
-                            className="w-full border border-gray rounded-md p-2 xl:p-3 mb-6 h-[220px] focus:outline-none focus:ring focus:primary"
+                            className="w-full border border-gray rounded-md p-2 xl:p-3 mb-3 h-[220px] focus:outline-none focus:ring focus:primary"
                             onChange={handleTextareaChange}
                             value={contactInfo?.comment}
                         ></textarea>
@@ -86,7 +86,7 @@ const Request_Feedback = () => {
                         {!isCaptchaVerified && <p className='my-2 text-secondary'>{error != '' && error}</p>}
                         <Button
                             type="submit"
-                            className="bg-secondary text-white px-3 py-1 rounded-md "
+                            className="bg-secondary text-white px-6 py-2 rounded-md "
                         >
                             Submit
                         </Button>

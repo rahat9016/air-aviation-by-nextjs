@@ -1,4 +1,4 @@
-import transportation_bg from "../../assets/transport.png";
+import transportation_bg from "../../assets/home_making_transportaion_bg.jpg";
 import CommentBox from "../common/CommentBox";
 const Transportation = () => {
     return (
