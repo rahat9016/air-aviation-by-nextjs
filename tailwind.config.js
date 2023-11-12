@@ -1,15 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    './index.html',
-    './src/**/*.{js,ts,jsx,tsx}',
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
+<<<<<<< HEAD
         primary: '#204868',
         secondary: '#EA244E',
         gray: "#BBBBBB"
+=======
+        primary: "#3B5C77",
+        secondary: "#EA244E",
+        gray: "#BBBBBB",
+        blue: "#204868",
+>>>>>>> origin/safia/dev
       },
       container: {
         center: true,
@@ -21,12 +25,12 @@ export default {
         },
       },
       boxShadow: {
-        '3xl': '5px 3px 5px -3px rgba(0,0,0,0.36)',
+        "3xl": "5px 3px 5px -3px rgba(0,0,0,0.36)",
       },
 
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
-        inter: ['Inter', 'sans-serif'],
+        poppins: ["Poppins", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
       screens: {
         xsm: "320px",
@@ -34,25 +38,25 @@ export default {
         xlg: "425px",
       },
       fontSize: {
-        '3.5xl': '32px',
+        "3.5xl": "32px",
       },
       spacing: {
-        mobileContainer: '24px',
+        mobileContainer: "24px",
       },
     },
   },
   plugins: [
-    function ({addUtilities}){
+    function ({ addUtilities }) {
       const newUtilities = {
-        '.no-scrollbar::-webkit-scrollbar': {
-          'display': 'none'
+        ".no-scrollbar::-webkit-scrollbar": {
+          display: "none",
         },
-        'no-scrollbar': {
-          '-ms-overflow-style': 'none',
-          'scrollbar-width': 'none'
-        }
-      }
-      addUtilities(newUtilities)
-    }
+        "no-scrollbar": {
+          "-ms-overflow-style": "none",
+          "scrollbar-width": "none",
+        },
+      };
+      addUtilities(newUtilities);
+    },
   ],
-}
+};
