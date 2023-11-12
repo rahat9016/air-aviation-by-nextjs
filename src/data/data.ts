@@ -36,6 +36,10 @@ export const NavData = [
     // ]
   },
   {
+    name: 'Career',
+    location: '/career',
+  },
+  {
     name: 'Our Team',
     location: '/team',
   },

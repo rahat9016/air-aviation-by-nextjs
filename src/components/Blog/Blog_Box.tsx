@@ -1,5 +1,6 @@
 import { IBlogType } from "../../Interface";
-import { AiOutlineEye } from "react-icons/ai"
+import eye from "../../assets/eye.jpg"
+
 const Blog_Box = ({ blog }: {blog: IBlogType}) => {
     console.log(blog)
     return (
@@ -12,7 +13,7 @@ const Blog_Box = ({ blog }: {blog: IBlogType}) => {
                     <div className="flex items-center justify-between md:justify-normal md:gap-12 mb-3 md:mb-0">
                         <p className="font-inter text-[#5F5F5F] text-sm md:text-base">{blog.date}</p>
                         <p className="flex items-center gap-4 text-[#5F5F5F] text-sm md:text-base">
-                            <AiOutlineEye />
+                            <img src={eye} alt="" />
                             <span>{blog.readTime}</span>
                         </p>
                     </div>
@@ -38,7 +39,7 @@ const Blog_Box = ({ blog }: {blog: IBlogType}) => {
                         }) }
                     </div>
                 })}
-                <p className="mb-20">{blog.end_desc}</p>
+                <p className="mb-[136px]">{blog.end_desc}</p>
             </div>
         </div>
     );
