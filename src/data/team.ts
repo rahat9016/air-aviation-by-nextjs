@@ -11,7 +11,7 @@ export const teamData = [
   {
     profile: Kazi_goal_img,
     comment:
-      "Aviation is a monument to human progress that is redefining international communication. It makes for efficient and safe travel thanks to its cutting-edge technology and infrastructure. Let's invest in an aviation future that propels advancement and brings people together globally as we embrace sustainable solutions.Aviation is a monument to human progress that is redefining international communication. It makes for efficient and safe travel thanks to its cutting-edge technology and infrastructure. Let us commit to a sustainable aviation future that promotes global unification and progress.",
+      "Founded in January 2023, KM Air Aviation Ltd has swiftly ascended the aviation realm, emerging as a dynamic force in the industry. Specializing in Cargo Airlines General Sales Agency (GSA), the company exemplifies a commitment to precision, reliability and global connectivity. As a trailblazer in the air cargo domain, KM Air Aviation Ltd seamlessly bridges distances, propelling trade and aspirations to new heights with every meticulously coordinated flight.",
     name: "Kazi Golam Mostafa",
     position: "CHAIRMAN",
   },
@@ -19,14 +19,14 @@ export const teamData = [
   {
     profile: Miazn_img,
     comment:
-      "Take to the skies as your canvas and soar far and far. Flying is more than simply a method of transportation; it's a lifestyle, an adventure, and a love. Cheers to taking off with excitement, cruising with calm, and landing with accuracy. May you have unwavering wings and an endless journey. Safe flights, fellow pilot.",
+      "KM Air Aviation Ltd stands at the forefront of aviation excellence, serving as a catalyst for global connectivity. Specializing in Airlines GSA and logistics transportation, the company is not just a carrier; it is a seamless bridge between businesses and destinations. With a commitment to precision and reliability KM Air Aviation Ltd redefines air logistics ensuring that every cargo journey is not just a delivery but a testament to their dedication to elevating the standards of air transportation worldwide.",
     name: "Rahnuma Miazn",
     position: "MANAGING DIRECTOR",
   },
   {
     profile: kazi_fahad,
     comment:
-      "Embrace the freedom of the open skies, where clouds are your companions and the horizons are endless. In the world of aviation, every flight is a new chapter and every landing is a triumph. May your journeys be smooth, your skies clear, and your passion for flying forever ignite. Blue skies and tailwinds to you, always!",
+      "KM Air Aviation Ltd stands as a beacon of excellence seamlessly blending the realms of Airlines GSA, logistics transportation, and chartered flights. Beyond being a carrier, we are architects of global connectivity, orchestrating precision in every aspect of air travel. With a commitment to reliability and innovation, KM Air Aviation Ltd transforms journeys into experiences, elevating the skies to new heights. Whether facilitating logistics, chartered flights, or serving as the trusted GSA partner, we redefine the art of aviation, connecting the world with unparalleled efficiency and dedication.",
     name: "Kazi Fahad Mostafa",
     position: "Cheif Executive Officer",
   },

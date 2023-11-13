@@ -16,7 +16,7 @@ const Meet_Team_Card = ({ data }: { data: IMeetTeamType }) => {
           <h1 className="text-white text-[12px]  md:text-sm font-medium font-poppins leading-none uppercase">
             {data.name}
           </h1>
-          <p className="text-white text-[8px] text-center font-poppins tracking-[.15rem] uppercase ">
+          <p className="text-white text-[8px] text-center font-poppins tracking-[.1rem] uppercase ">
             {data.position}
           </p>
         </div>

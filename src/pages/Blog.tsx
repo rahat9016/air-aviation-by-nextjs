@@ -18,8 +18,8 @@ const Blog = () => {
         desc="Learn about the essential, in’s and out’s of the logistics world"
         isShowSpan
       />
-      <div className="mt-0 lg:-mt-24 xl:-mt-96 bg-white shadow-3xl container px-mobileContainer xl:px-0 mb-[136px]">
-        <div className="grid grid-cols-1 xlg:grid-cols-2 md:grid-cols-4 lg:grid-cols-4  py-6 gap-4">
+      <div className="mt-0 lg:-mt-24 xl:-mt-96 bg-white drop-shadow-lg container px-mobileContainer xl:px-0 mb-[136px]">
+        <div className="grid grid-cols-1 xlg:grid-cols-2 md:grid-cols-4 lg:grid-cols-4  p-6 gap-4 px-">
           {blogData?.map((blog, index) => (
             <Blog_Card key={index} blog={blog} />
           ))}

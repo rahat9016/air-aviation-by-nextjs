@@ -6,7 +6,7 @@ import { IBlogType } from "../../Interface";
 const Blog_Card = ({ blog }: { blog: IBlogType }) => {
     const navigate = useNavigate();
     return (
-        <div className="bg-[#F6F6F6] rounded-[15px] ">
+        <div className="bg-[#F6F6F6] rounded-[15px] hover:drop-shadow-lg duration-300 transition-all">
             <img
                 src={blog?.profile}
                 alt="KM"

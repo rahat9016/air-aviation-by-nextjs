@@ -61,7 +61,7 @@ export function Footer() {
                         >
                             {" "}
                             Developed by{" "}
-                            <span className="underline text-sm capitalize">tecno bz</span>{" "}
+                            <span className="underline text-sm uppercase">tecno bz</span>{" "}
                         </Link>
                     </div>
                 </div>

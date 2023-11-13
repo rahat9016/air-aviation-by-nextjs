@@ -31,7 +31,7 @@ const Service_Card = ({
         </p>
         <button
           onClick={() => navigate(`/services/${id}`)}
-          className="bg-secondary text-white px-4 py-2 font-semibold rounded-[10px] outline-none mt-3"
+          className="bg-secondary text-white px-4 py-2 font-semibold rounded-[10px] outline-none my-3 "
         >
           Read More
         </button>

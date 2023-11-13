@@ -32,7 +32,7 @@ const Career_Box = () => {
           <div className="w-full flex sm:flex-row flex-col justify-center xl:gap-32 md:gap-24 gap-4 basis-2/5 items-center">
             <p className="text-primary">Full Time</p>
             <p>
-              <button className="py-[14px] px-[32px] bg-[#EA244E] rounded-[5px] text-white font-medium leading-none">
+              <button disabled className="py-[14px] px-[32px] bg-[#EA244E] rounded-[5px] text-white font-medium leading-none opacity-20">
                 Apply
               </button>
             </p>

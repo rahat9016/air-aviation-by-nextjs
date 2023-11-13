@@ -31,7 +31,6 @@ export function TopBar() {
             window.removeEventListener("scroll", handleSticky);
         };
     }, [window.scrollY]);
-console.log(window.scrollY)
     return (
         <div
             className={`${
@@ -80,7 +79,7 @@ console.log(window.scrollY)
                                                     `/${path}`
                                                         ? `text-red-500`
                                                         : ""
-                                                } font-medium  font-inter text-primary text-base py-[15px] xl:py-5 `}
+                                                } font-semibold  font-inter text-primary text-base py-[15px] xl:py-5 `}
                                             >
                                                 {navItem.name}
                                             </Link>
