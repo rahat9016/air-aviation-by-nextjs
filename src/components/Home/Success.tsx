@@ -9,8 +9,8 @@ const Success = () => {
       <div className="container px-mobileContainer xl:px-0">
         <CommentBox
           title="KEYS TO SUCCESS"
-          desc="Safety is the driving force behind everything we do at trucky transportation company. Our core safety value of “safety is everyone’s job – all the time” is a commitment that starts at the top of our executive management team with our founders."
-          className="text-white"
+          desc="Key to success At KM Air Aviation Ltd, success isn't just a destination; it's a journey powered by keys that unlock doors to new horizons. Join us on this journey, where your success is not just our goal; it's our commitment."
+          className="text-white bg-primary/95"
         />
       </div>
     </div>

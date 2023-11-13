@@ -2,7 +2,9 @@
 
 .feature-detail {
   position: relative;
+  background-color:"#ffff"
 }
+
 
 .feature-detail::before {
   content: "";

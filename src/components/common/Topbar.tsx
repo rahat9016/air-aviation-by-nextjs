@@ -17,19 +17,21 @@ type NavItemType = {
 export function TopBar() {
     const [open, setOpen] = useState<boolean>(false);
     const [sticky, setSticky] = useState<boolean>(false);
+    const [scroll, setScroll] = useState<number>(0);
     const { pathname } = useLocation();
     const path = pathname.split("/")[1];
 
     useEffect(() => {
         const handleSticky = () => {
             setSticky(window.scrollY >= 30);
+            setScroll(window.scrollY)
         };
         window.addEventListener("scroll", handleSticky);
         return () => {
             window.removeEventListener("scroll", handleSticky);
         };
-    }, []);
-
+    }, [window.scrollY]);
+console.log(window.scrollY)
     return (
         <div
             className={`${
@@ -46,7 +48,7 @@ export function TopBar() {
                 }`}
             >
                 <div
-                    className={`flex items-center justify-center font-inter h-[80px] lg:h-[100px]`}
+                    className={`flex items-center justify-center font-inter h-[80px] ${pathname !== "/" || scroll > 30?"lg:h-[100px]":"lg:h-[150px]"} bg-gradient-to-b from-white to-transparent`}
                 >
                     <div className="container px-mobileContainer xl:px-0 flex items-center justify-between">
                         <Link to={"/"}>
@@ -58,7 +60,7 @@ export function TopBar() {
                         </Link>
                         {/* --------------------desktop menu---------------- */}
                         <nav
-                            className={`hidden lg:flex items-center gap-14 xl:gap-20`}
+                            className={`hidden lg:flex items-center gap-40 xl:gap-48`}
                         >
                             <ul className="flex gap-10 xl:gap-16 items-center ">
                                 {NavData.map((navItem: NavItemType, index) => {

@@ -7,28 +7,28 @@ import Our_Features from "../components/Home/OurFeatures"
 import Why from "../components/Home/Why"
 import { goToTop } from "../utility/goToTop"
 import { Layout } from "../components/common/Layout"
-import { ReactHelmet } from "../components/common/Helmet"
 import Home_Service from "../components/Home/Home_Service"
 import { Hero } from "../components/Home/Hero"
 import Transportation from "../components/Home/Transportation"
 import Success from "../components/Home/Success"
 import Contact_ from "../components/Home/Contact_"
 import Request_Feedback from "../components/Home/Request_Feedback"
-import Commitment from "../components/Home/Commitment"
+// import Commitment from "../components/Home/Commitment"
+import { ReactHelmet } from "../components/common/Helmet"
 
 export function Home () {
   const {pathname}=useLocation()
   goToTop()
   return (
     <Layout>
-      <ReactHelmet title='Home' />
+      <ReactHelmet title='Home'  />
       <div className={`${pathname && "relative"}`}>
       <Hero/>
       <Home_Service />
-      <div className="bg-no-repeat  bg-[top]" style={{
+      <div className="bg-no-repeat  bg-contain" style={{
         backgroundImage:`url(${home_bg})`
       }}>
-      <Commitment />
+      {/* <Commitment /> */}
       <Transportation /> 
       <Success />
       <Why />

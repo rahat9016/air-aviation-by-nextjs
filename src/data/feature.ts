@@ -1,7 +1,7 @@
-import img2 from "../assets/ground-handling.jpg"
 import ground_handling from "../assets/ground-handling.jpg"
 import hotel_trans from "../assets/hotel-trans.jpg"
 import cargo_sales from "../assets/cargo-sales.jpg"
+import flight from "../assets/flight.jpg"
 
 export const featureData=[
     {
@@ -13,35 +13,28 @@ export const featureData=[
       location: "/services",
     },
     {
-      id: 1,
-      img: hotel_trans,
-      title: "Ground ",
-      sub_title: "Handling",
-      desc: "",
-      location: "/services",
-    },
-    {
       id: 2,
-      img: cargo_sales,
-      title: "Ground ",
-      sub_title: "Handling",
+      img: hotel_trans,
+      title: "Hotel ",
+      sub_title: "transportation",
       desc: "",
       location: "/services",
     },
     {
       id: 3,
-      img: img2,
-      title: "Ground ",
-      sub_title: "Handling",
+      img: cargo_sales,
+      title: "Cargo ",
+      sub_title: "sales & Operation",
       desc: "",
       location: "/services",
     },
     {
       id: 4,
-      img: img2,
-      title: "Ground ",
-      sub_title: "Handling",
+      img: flight,
+      title: "Chartered Cargo ",
+      sub_title: "Flight",
       desc: "",
       location: "/services",
     },
+  
   ]

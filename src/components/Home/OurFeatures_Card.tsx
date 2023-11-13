@@ -21,16 +21,27 @@ const OurFeatures_Card = ({ service }: { service: IServiceDataType }) => {
   const navigate = useNavigate();
 
   return (
-    <div className="relative overflow-hidden h-[320px] lg:min-h-[300px] cursor-pointer feature-detail" onClick={() => navigate(``)}>
-      <div className="w-full h-full bg-no-repeat bg-center bg-cover group relative" style={{ backgroundImage: `url(${service.img})` }}>
-        <div className="bottom-text space-y-1">
-          <h5 className="text-white text-sm ">Ground</h5>
+    <div className="relative overflow-hidden h-[320px] lg:min-h-[300px] cursor-pointer group " style={{ backgroundImage: `url(${service.img})` }}>
+      <div className="w-full h-full bg-no-repeat bg-center bg-cover group " >
+        {/* Gradient Mask */}
+        <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-b from-transparent to-black hover:h-full block group-hover:block"></div>
+
+        {/* Text Content */}
+        <div className="absolute bottom-4 left-4 text-white">
+          <h5 className="text-white">{service.title}</h5>
           <div className="flex">
+            {/* Assuming Span is a Tailwind component */}
             <Span margin="m-0" />
           </div>
-          <h1 className="uppercase text-white text-base font-bold ">Handling</h1>
+          <h1 className="uppercase">{service.sub_title}</h1>
         </div>
       </div>
+
+      {/* Clickable Area */}
+      {/* <div
+        className="absolute inset-20 z-10"
+        onClick={() => navigate(`/services/${service.id}`)}
+      ></div> */}
     </div>
   );
 };

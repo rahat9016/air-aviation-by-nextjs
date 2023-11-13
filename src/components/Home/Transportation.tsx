@@ -9,7 +9,8 @@ const Transportation = () => {
             <div className="container px-mobileContainer xl:px-0 flex justify-end">
                 <CommentBox
                     title="MAKING TRANSPORTATION FAST AND SAFE"
-                    desc="SAFETY IS THE DRIVING FORCE BEHIND EVERYTHING WE DO AT TRICKY TRANSPORTATION COMPANY. OUR CORE SAFETY VALUE OF “SAFETY IS EVERYONE’S JOB ALL THE TIME” IS A COMMITMENT THAT STARTS AT THE TOP OF OUR EXECUTIVE MANAGEMENT TEAM WITH OUR FOUNDERS."
+                    desc="KM Air Aviation Ltd, where we're not just making transportation fast and safe; we're transforming the very essence of air cargo logistics. 
+                    Your cargo's journey is our priority, and we're dedicated to making it swift, secure, and successful."
                     className="bg-[rgba(255,255,255,0.81)] text-primary"
                 />
             </div>

@@ -2,6 +2,7 @@ import Span from "../Span";
 import home_service_bg from "../../assets/our-service-bg.jpg"
 import OurFeatures_Card from "./OurFeatures_Card";
 import { featureData } from "../../data/feature";
+import location_ from "../../assets/location_.png"
 
 const Our_Features = () => {
   return (
@@ -24,6 +25,8 @@ const Our_Features = () => {
           return <OurFeatures_Card key={index} service={service} />;
         })}
       </div>
+      <img src={location_} alt="" className="mx-auto"/>
+
     </div>
   );
 };

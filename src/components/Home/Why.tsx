@@ -1,6 +1,5 @@
 import Span from "../Span";
 import { WhyData } from "../../data/data";
-import location_ from "../../assets/location_.png"
 import { useState } from "react";
 const Why = () => {
     const [readFullDesc, setReadFullDesc] = useState<boolean[]>([])
@@ -31,8 +30,7 @@ const Why = () => {
                         <p className="text-xs md:text-sm xl:text-base text-ellipsis">{readFullDesc[index] ? data?.desc : data?.desc?.split(' ').slice(0, 30)?.join(' ')}<span className={readFullDesc[index] ? "hidden" : " inline-block"}>...</span><button onClick={() =>toggleReadDesc(index)} className=" font-medium  text-white text-base  px-3 py-2 rounded-full inline-block mx-auto underline" >{readFullDesc[index] ? 'Read less': 'Read more'}</button></p>
                         
                         </div>
-{           index ===1  &&            <img src={location_} alt="" className="mx-auto"/>
-}                    </div>)
+                  </div>)
                 }
                 
             </div>
