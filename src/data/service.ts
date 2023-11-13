@@ -62,6 +62,49 @@ export const service_data = [
     location: "/services",
   },
 ];
+
+export const featureData=[
+  {
+    id: 1,
+    img: img2,
+    title: "Ground ",
+    sub_title: "Handling",
+    desc: "",
+    location: "/services",
+  },
+  {
+    id: 1,
+    img: img2,
+    title: "Ground ",
+    sub_title: "Handling",
+    desc: "",
+    location: "/services",
+  },
+  {
+    id: 2,
+    img: img2,
+    title: "Ground ",
+    sub_title: "Handling",
+    desc: "",
+    location: "/services",
+  },
+  {
+    id: 3,
+    img: img2,
+    title: "Ground ",
+    sub_title: "Handling",
+    desc: "",
+    location: "/services",
+  },
+  {
+    id: 4,
+    img: img2,
+    title: "Ground ",
+    sub_title: "Handling",
+    desc: "",
+    location: "/services",
+  },
+]
 // export const home_service_Data = [
 //     {
 //         bg_img: home_service_img1,

@@ -1,7 +1,7 @@
+import Span from "../Span";
 import { WhyData } from "../../data/data";
 import location_ from "../../assets/location_.png"
 import { useState } from "react";
-import Span from "../Span";
 const Why = () => {
     const [readFullDesc, setReadFullDesc] = useState<boolean[]>([])
 
