@@ -110,7 +110,7 @@ export function TopBar() {
                         </nav>
                         {/* ---------------responsive menu----------------- */}
                         <nav
-                            className={`lg:hidden bg-primary w-full h-[80vh] top-[80px] ${
+                            className={`lg:hidden bg-primary w-full py-10 top-[80px] ${
                                 open ? "left-0 " : "left-[-999999px]"
                             } absolute flex items-center justify-center`}
                         >

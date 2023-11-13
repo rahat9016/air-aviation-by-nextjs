@@ -19,7 +19,7 @@ const Blog = () => {
         isShowSpan
       />
       <div className="mt-0 lg:-mt-24 xl:-mt-96 bg-white shadow-3xl container px-mobileContainer xl:px-0 mb-[136px]">
-        <div className="grid grid-cols-1 xlg:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 px-[22px] py-6 gap-4">
+        <div className="grid grid-cols-1 xlg:grid-cols-2 md:grid-cols-4 lg:grid-cols-4  py-6 gap-4">
           {blogData?.map((blog, index) => (
             <Blog_Card key={index} blog={blog} />
           ))}

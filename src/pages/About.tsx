@@ -54,7 +54,7 @@ const About = () => {
             allowFullScreen
           ></iframe>
         </div>
-        <div className="basis-[40%] h-[480px] bg-white  drop-shadow-md px-8 lg:px-[80px]">
+        <div className="basis-[40%] h-[480px] bg-white  drop-shadow-md px-10 ">
           <div
             style={{ backgroundImage: `url(${double_circle})` }}
             className=" flex justify-center w-full bg-no-repeat bg-[80%] text-right-top bg-[length:100px_100px] pb-6 lg:pb-12 lg:pt-20"
