@@ -16,7 +16,7 @@ const Common_Hero = ({
       style={{
         backgroundImage: `url(${bg})`,
       }}
-      className="w-full bg-no-repeat bg-cover bg-center h-[180px] sm:h-[240px] md:h-[260px] lg:h-[380px] xl:h-[675px] flex justify-center text-center"
+      className="w-full bg-no-repeat bg-cover bg-center h-[180px] sm:h-[240px] md:h-[260px] lg:h-[580px] xl:h-[675px] flex justify-center text-center"
     >
       <div className="mt-10 xl:mt-20 px-mobileContainer xl:px-0">
         {title && (

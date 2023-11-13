@@ -44,13 +44,14 @@ export const NavData = [
     location: '/team',
   },
   {
-    name: 'About Us',
-    location: '/about-us',
-  },
-  {
     name: 'Blog',
     location: '/blog',
   },
+  {
+    name: 'About Us',
+    location: '/about-us',
+  },
+  
 ]
 
 // -------------Hero Section data -------------

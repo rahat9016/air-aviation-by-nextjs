@@ -14,6 +14,7 @@ import Transportation from "../components/Home/Transportation"
 import Success from "../components/Home/Success"
 import Contact_ from "../components/Home/Contact_"
 import Request_Feedback from "../components/Home/Request_Feedback"
+import Commitment from "../components/Home/Commitment"
 
 export function Home () {
   const {pathname}=useLocation()
@@ -27,7 +28,7 @@ export function Home () {
       <div className="bg-no-repeat  bg-[top]" style={{
         backgroundImage:`url(${home_bg})`
       }}>
-      {/* <Commitment /> */}
+      <Commitment />
       <Transportation /> 
       <Success />
       <Why />
