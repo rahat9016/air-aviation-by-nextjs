@@ -6,7 +6,7 @@ import img5 from "../assets/Special_Handling.jpg";
 import home_service_img1 from "../assets/home_service1.png";
 import home_service_img2 from "../assets/Cargo.webp";
 import home_service_img3 from "../assets/home_service3.png";
-import home_service_img4 from "../assets/special_handling.jpg";
+// import home_service_img4 from "../assets/special_handling.jpg";
 import home_service_icon1 from "../assets/home_barrier.png";
 import home_service_icon2 from "../assets/home_container.png";
 import home_service_icon3 from "../assets/home-air-plane.png";
@@ -25,7 +25,7 @@ export const service_data = [
   {
     id: 2,
     img: img5,
-    bg_img: home_service_img4,
+    // bg_img: home_service_img4,
     icon: home_service_icon4,
     title: "Express Delivery",
     sub_title: "CROSS-BORDER",

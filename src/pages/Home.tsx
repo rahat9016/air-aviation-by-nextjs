@@ -12,6 +12,7 @@ import { goToTop } from "../utility/goToTop"
 import Home_Service from "../components/Home/Home_Service"
 import home_bg from "../assets/home-bg.jpg"
 import { useLocation } from "react-router-dom"
+import Commitment from "../components/Home/Commitment"
 
 export function Home () {
   const {pathname}=useLocation()
@@ -25,7 +26,7 @@ export function Home () {
       <div className="bg-no-repeat  bg-[top]" style={{
         backgroundImage:`url(${home_bg})`
       }}>
-      {/* <Commitment /> */}
+      <Commitment />
       <Transportation /> 
       <Success />
       <Why />
