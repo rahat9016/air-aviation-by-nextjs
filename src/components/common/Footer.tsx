@@ -1,7 +1,7 @@
 import { HiArrowRight } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import { socialLink } from "../../data/data";
-import HelpCenter from "./HelpCenter";
+// import HelpCenter from "./HelpCenter";
 export function Footer() {
     return (
         <div>

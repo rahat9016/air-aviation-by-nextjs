@@ -13,7 +13,7 @@ const Career = () => {
       <ReactHelmet title="Career" />
       <Common_Hero bg={bg} />
       <div
-        className="lg:-mt-[250px] container bg-no-repeat bg-top px-mobileContainer bg-white drop-shadow-md rounded-[5px]"
+        className="lg:-mt-80 container bg-no-repeat bg-center bg-contain px-mobileContainer xl:px-20 bg-white drop-shadow-md"
         style={{ backgroundImage: `url(${vector_})` }}
       >
         <Career_Box />

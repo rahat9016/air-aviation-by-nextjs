@@ -54,7 +54,7 @@ const Contact_ = () => {
                   }
                 </ul>
                             </div>
-                            <img src={waterLogo} alt='' className='absolute bottom-3 lg:bottom-8  w-20 lg:w-32' />
+                            <img src={waterLogo} alt='' className='absolute left-3 bottom-1 lg:bottom-3  w-20 lg:w-32' />
                         </div>
                     </div>
                     <div className="w-full">

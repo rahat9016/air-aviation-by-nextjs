@@ -1,7 +1,7 @@
 import Common_Hero from "../components/Common_Hero";
 import { ReactHelmet } from "../components/common/Helmet";
 import { Layout } from "../components/common/Layout";
-import bg from "../assets/service-details-banner.webp";
+import bg from "../assets/service-details-banner.jpg";
 import { useLocation } from "react-router-dom";
 import { service_data } from "../data/service";
 import { NotFound } from "./NotFound";
@@ -20,7 +20,7 @@ const Services_Details = () => {
       <Common_Hero bg={bg} />
       <div className="px-mobileContainer mt-0 lg:-mt-80 bg-white drop-shadow-md container mb-8 lg:mb-10 xl:mb-20 pt-10">
         <div
-          className="bg-no-repeat bg-contain mb-48 pb-6"
+          className="bg-no-repeat bg-contain bg-[center_top_40px] mb-48 pb-6"
           style={{ backgroundImage: `url(${vector_Bg})` }}
         >
           <div className="text-center pt-8 lg:pt-[87px]">

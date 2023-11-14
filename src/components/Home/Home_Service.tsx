@@ -11,8 +11,8 @@ const Home_Service = () => {
       style={{
         backgroundImage: `url${home_service_bg}`
       }}>
-        <h4 className="text-primary">WHAT WE PROVIDE FOR CLIENTS</h4>
-        <h1 className="text-xl lg:text-3xl font-bold text-primary">
+        <h4 className="text-primary font-semibold mb-3 text-base font-poppins">WHAT WE PROVIDE FOR CLIENTS</h4>
+        <h1 className="text-xl lg:text-5xl font-bold font-poppins text-primary uppercase mb-3">
           OUR SERVICES
         </h1>
         <div className="my-2">

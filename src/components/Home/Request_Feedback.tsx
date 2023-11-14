@@ -84,12 +84,14 @@ const Request_Feedback = () => {
                         />
                         : ""}
                         {!isCaptchaVerified && <p className='my-2 text-secondary'>{error != '' && error}</p>}
-                        <Button
+                       <div className="w-full flex justify-end">
+                       <Button
                             type="submit"
-                            className="bg-secondary text-white px-6 py-2 rounded-md "
+                            className="bg-secondary text-end  font-medium text-white px-6 py-2 rounded-md "
                         >
                             Submit
                         </Button>
+                       </div>
                     </form>
                 </div>
             </div>

@@ -22,16 +22,16 @@ const Blog_Box = ({ blog }: {blog: IBlogType}) => {
                     <img src={blog.cover} alt="KM Air Aviation" className="w-full" />
                 </div>
             </div>
-            <div className="w-full lg:w-7/12 mx-auto mt-4 md:mt-24">
-                <p className="mb-2 lg:mb-10">{blog.start_desc}</p>
+            <div className="w-full lg:w-7/12 mx-auto mt-4 md:mt-24 font-poppins text-base">
+                <p className="mb-2 lg:mb-10 ">{blog.start_desc}</p>
                 {blog.points.map((point, index) => {
                     const {title, desc} = point.point 
                     return  <div key={index} className="mb-2 lg:mb-10">
                         <h1 className="text-[#1A1A1A] font-bold text-lg lg:text-[32px] font-poppins mb-2 lg:mb-5">{title}</h1>
-                        {desc && <p className=" text-base lg:text-lg font-inter ">{desc}</p>}
+                        {desc && <p className=" text-base  font-inter ">{desc}</p>}
                         {point?.listPoint  &&  point?.listPoint.map((list, index) => {
                             return <div key={index} className="mb-2 lg:mb-10">
-                                <p className=" text-base lg:text-lg font-inter ">
+                                <p className=" text-base  font-inter ">
                                     <span className="font-semibold">{list.title} </span>
                                     {list.desc}
                                 </p>

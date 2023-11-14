@@ -20,7 +20,7 @@ export const teamData = [
     profile: Miazn_img,
     comment:
       "KM Air Aviation Ltd stands at the forefront of aviation excellence, serving as a catalyst for global connectivity. Specializing in Airlines GSA and logistics transportation, the company is not just a carrier; it is a seamless bridge between businesses and destinations. With a commitment to precision and reliability KM Air Aviation Ltd redefines air logistics ensuring that every cargo journey is not just a delivery but a testament to their dedication to elevating the standards of air transportation worldwide.",
-    name: "Rahnuma Miazn",
+    name: "Rahnuma Mizan",
     position: "MANAGING DIRECTOR",
   },
   {

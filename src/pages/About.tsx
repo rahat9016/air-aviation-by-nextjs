@@ -13,7 +13,7 @@ const About = () => {
     <Layout>
       <ReactHelmet title={"About Us"} />
       <Common_Hero bg={bg} />
-      <div className="mt-0 lg:-mt-80 bg-white shadow-3xl container px-mobileContainer xl:px-0 mb-8 lg:mb-10 xl:mb-20 pb-16 xl:pb-28">
+      <div className="mt-0 lg:-mt-80 bg-white shadow-3xl container px-mobileContainer xl:px-0 mb-8 lg:mb-10 xl:mb-5 pb-16 xl:pb-28">
         <div className="pt-10 xl:pt-20 text-center">
           <h1 className="text-primary font-bold text-2xl xl:text-[40px] mb-[22px] font-poppins">
             About Us
@@ -26,7 +26,7 @@ const About = () => {
         <div className="xl:px-48 text-center">
           <div
             style={{ backgroundImage: `url(${about_circle})` }}
-            className="bg-no-repeat pb-[68px] md:bg-left-about bg-center sm:bg-right pt-[80px] "
+            className="bg-no-repeat pb-[68px] bg-contain  bg-[center_top_0px]  pt-[80px] "
           >
             <h1 className="font-bold text-2xl text-primary font-inter">
               <span className="font-normal">WE ARE</span> KM AIR AVIATION LTD.
@@ -44,7 +44,7 @@ const About = () => {
         </div>
       </div>
       <div className="container px-mobileContainer xl:px-0 flex flex-col lg:flex-row mb-[136px] gap-5">
-        <div className="basis-[60%] h-[480px]">
+        <div className="lg:basis-[60%] h-[480px]">
           <iframe
             width="100%"
             height="100%"

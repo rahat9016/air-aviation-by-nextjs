@@ -1,6 +1,6 @@
 // OurFeatures_Card.jsx
 
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import Span from "../Span";
 import "./style.css"
 
@@ -18,13 +18,13 @@ interface IServiceDataType {
 }
 
 const OurFeatures_Card = ({ service }: { service: IServiceDataType }) => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   return (
     <div className="relative overflow-hidden h-[320px] lg:min-h-[300px] cursor-pointer group " style={{ backgroundImage: `url(${service.img})` }}>
       <div className="w-full h-full bg-no-repeat bg-center bg-cover group " >
         {/* Gradient Mask */}
-        <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-b from-transparent to-black hover:h-full block group-hover:block"></div>
+        <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-b from-transparent to-gray-500 hover:h-full block group-hover:block"></div>
 
         {/* Text Content */}
         <div className="absolute bottom-4 left-4 text-white">

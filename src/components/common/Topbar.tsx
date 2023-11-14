@@ -30,10 +30,11 @@ export function TopBar() {
         return () => {
             window.removeEventListener("scroll", handleSticky);
         };
-    }, [window.scrollY]);
+    }, []);
     return (
         <div
-            className={`${
+            className={`
+            ${
                 pathname !== "/" || sticky
                     ? "pb-[80px] lg:h-[100px]"
                     : "pb-[80px] lg:pb-0"
@@ -43,11 +44,13 @@ export function TopBar() {
                 className={`z-50 fixed w-full bg-white  ${
                     pathname !== "/" || sticky
                         ? "bg-white shadow-md"
-                        : "lg:bg-transparent"
+                        :
+                         "lg:bg-transparent"
                 }`}
             >
+                <div className={`${scroll<30 && "-z-10 w-full absolute top-0 h-[200px] bg-gradient-to-b  from-white   to-transparent"} `}></div>
                 <div
-                    className={`flex items-center justify-center font-inter h-[80px] ${pathname !== "/" || scroll > 30?"lg:h-[100px]":"lg:h-[150px]"} bg-gradient-to-b from-white to-transparent`}
+                    className={`flex items-center justify-center font-inter h-[80px] lg:h-[100px]  `}
                 >
                     <div className="container px-mobileContainer xl:px-0 flex items-center justify-between">
                         <Link to={"/"}>
