@@ -33,7 +33,7 @@ const Team_Card = ({ team, index }: { team: ITeamData; index: number }) => {
           {team?.comment}
         </p>
         <h2
-          className={`font-medium font-poppins text-lg lg:text-2xl text-[#514C4D] mt-2 lg:mt-5 mb-1 `}
+          className={`font-medium font-poppins text-lg lg:text-2xl text-[#514C4D] mt-2 lg:mt-5 mb-1 capitalize `}
         >
           {team?.name}
         </h2>

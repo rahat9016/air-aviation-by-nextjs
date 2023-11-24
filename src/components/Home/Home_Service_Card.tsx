@@ -25,22 +25,25 @@ const Home_Service_Card = ({ service }: { service: IServiceDataType }) => {
           <img
             src={service.icon}
             alt="KM"
-            className="mb-8 duration-500 transition-all ease-in-out transform animate-[wiggle_1s_ease-in-out_infinite] scale-0 group-hover:scale-105"
+            className="mb-8 duration-500 transition-all ease-out transform  animate-[wiggle_1s_ease-in-out_infinite] group-hover:scale-0 group-hover:scale- 
+            
+            
+            0"
           />
-          <h1 className="text-white font-bold text-xl lg:text-2xl mb-5 transition delay-150 duration-500 ease-in-out capitalize">
+          <h1 className="text-white font-bold text-xl lg:text-2xl mb-5 capitalize ">
             {service.title}
           </h1>
           <div className="group  ">
-            {/* <button className="text-white font-medium text-sm duration-300 transition-all ease-in lg:text-base  hidden group-hover:block capitalize ">view Details</button>
+            {/* <button className="text-white font-medium text-sm dur ation-300 transition-all ease-in lg:text-base  hidden group-hover:block capitalize ">view Details</button>
                 <hr className=" text-center group-hover:w-8  group-hover:border-2 border-white s" /> */}
             {/* <button
-                    className="group group-hover:text-white  px-6 py-2 hidden group-hover:block after:bg-primary mx-auto  text-xs lg:text-sm font-semibold capitalize font-inter lg:mt-5 mb-5"
+                    className="group group-hover:text-  ext-xs lg:text-sm font-semibold capitalize font-inter lg:mt-5 mb-5"
                     
                 >
 view details            
       <span className="w-[50%] hover:w-full h-[1.5px] duration-300 bg-primary block"></span>
                 </button> */}
-            <button className="group/edit delay-150 duration-500 scale-0 ease-in-out   group-hover:scale-105  group-hover:text-white px-6 py-2  after:bg-primary mx-auto text-xs lg:text-sm font-semibold capitalize font-inter lg:mt-5 mb-5">
+            <button className="group/edit delay-150 duration-500 scale-0 ease-in-out   group-hover:scale-100  group-hover:text-white px-6 py-2  after:bg-primary mx-auto text-xs lg:text-sm font-semibold capitalize font-inter lg:mt-5 mb-5">
               view details
               <span className="  w-[30%] group-hover/edit:w-full h-[1.5px] duration-300 bg-primary block"></span>
             </button>

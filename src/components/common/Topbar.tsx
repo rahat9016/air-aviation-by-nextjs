@@ -36,19 +36,19 @@ export function TopBar() {
             className={`
             ${
                 pathname !== "/" || sticky
-                    ? "pb-[80px] lg:h-[100px]"
-                    : "pb-[80px] lg:pb-0"
+                    ? "pb-[80px] lg:h-[100px] scroll-smooth "
+                    : "pb-[80px] lg:pb-0 scroll-smooth  "
             }`}
         >
             <div
-                className={`z-50 fixed w-full bg-white  ${
+                className={`z-50 fixed w-full bg-white duration-1000 delay-100 transition-all scroll-smooth ease-in-out   ${
                     pathname !== "/" || sticky
-                        ? "bg-white shadow-md"
+                        ? "bg-white shadow-md "
                         :
                          "lg:bg-transparent"
                 }`}
             >
-                <div className={`${scroll<30 && "-z-10 w-full absolute top-0 h-[200px] bg-gradient-to-b  from-white   to-transparent"} `}></div>
+                <div className={`${scroll<30 && " -z-10 w-full absolute top-0 h-[200px] bg-gradient-to-b  from-white   to-transparent"} `}></div>
                 <div
                     className={`flex items-center justify-center font-inter h-[80px] lg:h-[100px]  `}
                 >

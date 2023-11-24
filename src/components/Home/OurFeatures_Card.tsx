@@ -21,8 +21,8 @@ const OurFeatures_Card = ({ service }: { service: IServiceDataType }) => {
   // const navigate = useNavigate();
 
   return (
-    <div className="relative overflow-hidden h-[320px] lg:min-h-[300px] cursor-pointer group " style={{ backgroundImage: `url(${service.img})` }}>
-      <div className="w-full h-full bg-no-repeat bg-center bg-cover group " >
+    <div className="basis-3/5 hover:basis-4/5 duration-500 transition-all bg-cover  bg-no-repeat relative   h-[320px] lg:min-h-[300px]  cursor-pointer group " style={{ backgroundImage: `url(${service.img})` }}>
+      <div className=" group " >
         {/* Gradient Mask */}
         <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-b from-transparent to-gray-500 hover:h-full block group-hover:block"></div>
 
@@ -30,7 +30,6 @@ const OurFeatures_Card = ({ service }: { service: IServiceDataType }) => {
         <div className="absolute bottom-4 left-4 text-white">
           <h5 className="text-white">{service.title}</h5>
           <div className="flex">
-            {/* Assuming Span is a Tailwind component */}
             <Span margin="m-0" />
           </div>
           <h1 className="uppercase">{service.sub_title}</h1>

@@ -20,7 +20,7 @@ const Our_Features = () => {
           <Span />
         </div>
       </div>
-      <div className="container px-mobileContainer xl:px-0 grid grid-cols-1 sm:grid-cols-2  md:grid-cols-2 xl:grid-cols-4  ">
+      <div className="  lg:flex min-w-max  [&>button]">
         {featureData?.slice(0, 4).map((service, index) => {
           return <OurFeatures_Card key={index} service={service} />;
         })}

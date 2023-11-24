@@ -17,7 +17,8 @@ export function Hero () {
   
   }
   return (
-    <div className='w-full overflow-hidden xl:h-[675px]' id='hero'>
+  <div className='h-[vh]'>
+      <div className='w-full overflow-hidden xl:h-[675px]' id='hero'>
       <Slider {...settings}>
           {HeroData.map(data => {
           return <div key={data.title} className='relative' >
@@ -30,5 +31,6 @@ export function Hero () {
           </div>})}
       </Slider>
     </div>
+  </div>
   )
 }

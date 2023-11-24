@@ -1,7 +1,7 @@
 import ground_handling from "../assets/ground-handling.jpg"
 import hotel_trans from "../assets/hotel-trans.jpg"
 import cargo_sales from "../assets/cargo-sales.jpg"
-import flight from "../assets/flight.jpg"
+import flight from "../assets/feature_img_4.jpg"
 
 export const featureData=[
     {
