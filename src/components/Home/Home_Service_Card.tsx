@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-
+import "./style.css"
 interface IServiceDataType {
   id: number;
   img: string;
@@ -14,8 +14,7 @@ const Home_Service_Card = ({ service }: { service: IServiceDataType }) => {
   const navigate = useNavigate();
   return (
     <div
-      className="relative rounded-[15px] overflow-hidden h-[320px] lg:min-h-[450px] cursor-pointer"
-      onClick={() => navigate(`/services/${service.id}`)}
+      className="relative rounded-[15px] overflow-hidden h-[320px] lg:min-h-[450px] "
     >
       <div
         className="w-full h-full bg-no-repeat bg-center bg-cover group transition delay-150 duration-500 ease-in-out  hover:scale-110 "
@@ -25,10 +24,7 @@ const Home_Service_Card = ({ service }: { service: IServiceDataType }) => {
           <img
             src={service.icon}
             alt="KM"
-            className="mb-8 duration-500 transition-all ease-out transform  animate-[wiggle_1s_ease-in-out_infinite] group-hover:scale-0 group-hover:scale- 
-            
-            
-            0"
+            className="mb-8 duration-500 transition-all ease-in-out transform    "
           />
           <h1 className="text-white font-bold text-xl lg:text-2xl mb-5 capitalize ">
             {service.title}
@@ -43,9 +39,10 @@ const Home_Service_Card = ({ service }: { service: IServiceDataType }) => {
 view details            
       <span className="w-[50%] hover:w-full h-[1.5px] duration-300 bg-primary block"></span>
                 </button> */}
-            <button className="group/edit delay-150 duration-500 scale-0 ease-in-out   group-hover:scale-100  group-hover:text-white px-6 py-2  after:bg-primary mx-auto text-xs lg:text-sm font-semibold capitalize font-inter lg:mt-5 mb-5">
+            <button       onClick={() => navigate(`/services/${service.id}`)}
+ className="group/edit delay-150 duration-500 scale-0 ease-in-out   group-hover:scale-100  group-hover:text-white px-6 py-2  after:bg-white text-white mx-auto text-xs lg:text-sm font-semibold capitalize font-inter lg:mt-5 mb-5">
               view details
-              <span className="  w-[30%] group-hover/edit:w-full h-[1.5px] duration-300 bg-primary block"></span>
+              <span className="  w-[30%] group-hover/edit:w-full h-[1.5px] duration-300 bg-white block"></span>
             </button>
           </div>
         </div>

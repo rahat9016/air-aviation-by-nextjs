@@ -3,6 +3,22 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      
+      keyframes: {
+        wiggle: {
+          '0%' :{transform: 'scale(1)',
+          },
+         '50%': {
+            transform: 'scale(1.1)'
+          }  ,
+          '100%':{
+            transform: 'scale(1)'
+          }
+        }},
+        animation: {
+          wiggle: 'wiggle 1s ease-in-out infinite',
+        },
+        
       colors: {
         primary: "#204868",
         secondary: "#EA244E",

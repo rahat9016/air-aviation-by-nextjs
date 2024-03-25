@@ -28,7 +28,7 @@ export const teamData = [
     comment:
       "KM Air Aviation Ltd stands as a beacon of excellence seamlessly blending the realms of Airlines GSA, logistics transportation, and chartered flights. Beyond being a carrier, we are architects of global connectivity, orchestrating precision in every aspect of air travel. With a commitment to reliability and innovation, KM Air Aviation Ltd transforms journeys into experiences, elevating the skies to new heights. Whether facilitating logistics, chartered flights, or serving as the trusted GSA partner, we redefine the art of aviation, connecting the world with unparalleled efficiency and dedication.",
     name: "Kazi jahid Mostafa",
-    position: "Cheif Executive Officer",
+     position: "Chief Executive Officer",
   },
 ];
 export const meatTeamData = [
