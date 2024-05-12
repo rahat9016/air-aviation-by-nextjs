@@ -1,7 +1,6 @@
 import { Layout } from "../components/common/Layout";
 import { ReactHelmet } from "../components/common/Helmet";
 import Common_Hero from "../components/Common_Hero";
-import bg from "../assets/our_team_hero_bg.jpg";
 import Team_Box from "../components/Team/Team_Box";
 import { goToTop } from "../utility/goToTop";
 import Meet_Team_Box from "../components/Team/Meet_Team_Box";
@@ -11,7 +10,7 @@ export function Team() {
   return (
     <Layout>
       <ReactHelmet title="Team" />
-      <Common_Hero bg={bg} />
+      <Common_Hero bg={'https://i.ibb.co/sjdXVfY/Rectangle-103.jpg'} />
       <div
         className="lg:-mt-80 container bg-no-repeat bg-center bg-contain px-mobileContainer xl:px-20 bg-white drop-shadow-md"
         style={{ backgroundImage: `url(${vector_})` }}

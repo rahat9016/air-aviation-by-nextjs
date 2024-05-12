@@ -14,7 +14,7 @@ export const aboutData = [
     },
     {
         img: i3,
-        title: "Our Experience"
+        title: "Experience"
     },
     {
         img: i4,

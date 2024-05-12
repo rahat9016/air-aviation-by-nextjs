@@ -1,6 +1,3 @@
-import hero_bg1 from "../assets/banner-2.jpg"
-import hero_bg2 from "../assets/banner-3.jpg"
-import hero_bg3 from "../assets/banner-1.jpg"
 import { BiLogoFacebook } from 'react-icons/bi';
 import { FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 // ---------------Nav Data-----------------
@@ -62,19 +59,19 @@ export const HeroData = [
     title: 'AIRLINE GSA',
     subTitle: 'Passenger & Cargo',
     btnUrl: '#',
-    bannerImage: hero_bg1,
+    bannerImage: 'https://i.ibb.co/7tQFqGL/banner-2.jpg',
   },
   {
     title: 'SAFE & SECURE',
     subTitle: 'Cargo Transportation',
     btnUrl: '#',
-    bannerImage: hero_bg2,
+    bannerImage: 'https://i.ibb.co/8BzFCGZ/banner-3.jpg',
   },
   {
     title: 'CHARTER SERVICE',
     subTitle: 'Logistics & Transportation',
     btnUrl: '#',
-    bannerImage: hero_bg3,
+    bannerImage: 'https://i.ibb.co/mtZZhJB/banner-1.jpg',
   },
   
 ]
